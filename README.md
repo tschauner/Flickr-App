@@ -19,7 +19,7 @@ Remember, our goal is not to *compare* and *grade* the projects, but to get to k
 
 Use Swift 4.0 and Xcode 9.0.
 
-### UI
+### Interface
 
 We don't *"grade"* projects based on how much time you've spent designing and polishing UI so don't waste time on that. All we care about is *tidiness* of the UI: equal margins, logical view hierarchy, logical layout constraints.
 
