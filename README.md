@@ -1,5 +1,5 @@
 <p align="center">
-<img src="jodellogo.png">
+<img src="jodellogo.png" width="300">
 </p>
 
 Jodel
