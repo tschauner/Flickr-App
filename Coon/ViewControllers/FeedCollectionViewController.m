@@ -20,8 +20,10 @@
     [super viewDidLoad];
     
     [FlickrApi fetchPhotosWithCompletion:^(NSArray *photos, NSError *error) {
+        dispatch_async(dispatch_get_main_queue(), ^{
+            [self.collectionView reloadData];
+        });
         self.photos = photos;
-        [self.collectionView reloadData];
         NSLog(@"result %@ error %@", photos, error);
     }];
 }
