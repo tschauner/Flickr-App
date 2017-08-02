@@ -7,7 +7,7 @@ Jodel
 
 Hi there! So, you would like to apply to join the Jodel iOS Team? We're honored to have you here!
 
-Your first assignment is to relax. Our goal during the interview process is to get you know you, and for you to get to know us. We want to make it a joyful learning experience for you and for our team. There are no *"right answers"*, programming is all about solving problems through compromises. If you make a mistake, no matter how simple, don't worry, we make them all the time. *Pssst... Don't tell anyone, but we use http://fuckingblocksyntax.com all the time* 😜
+Your first assignment is to relax. Our goal during the interview process is to get you know you, and for you to get to know us. We want to make it a joyful learning experience for you and for our team. There are no *"right answers"*, programming is all about solving problems through compromises. If you make a mistake, no matter how simple, don't worry, we make them all the time. *Pssst... Don't tell anyone, but we use [http://fuckingblocksyntax.com](f****ngblocksyntax) all the time* 😜
 
 Your second assignment is to provide us with some meaty code sample, so we have something to talk about during our delightful discussion. If you already have a project you'd like to show to us, please let us know. If you don't, no problem! We have a quite interesting task for you to solve. 
 
