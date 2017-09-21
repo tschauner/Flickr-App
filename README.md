@@ -11,9 +11,9 @@ Your first assignment is to relax. Our goal during the interview process is to g
 
 Your second assignment is to provide us with some meaty code sample, so we have something to talk about during our delightful discussion. If you already have a project you'd like to show to us, please let us know. If you don't, no problem! We have a quite interesting task for you to solve. 
 
-## CoonApp
+## JodelChallenge
 
-CoonApp is an app for showing [Flickr](https://www.flickr.com) pictures in a Collection View. We've setup some boilerplate code for you 🙇 Your assignment is to improve the app and make it an enjoyable picture browsing experience. We'll give you some tips, but the requirements and specification are quite open. This directly represents how we work in the iOS team, we have guidelines, but every team member is open to introduce improvements to any area of the app.
+JodelChallenge is an app for showing [Flickr](https://www.flickr.com) pictures in a Collection View. We've setup some boilerplate code for you 🙇 Your assignment is to improve the app and make it an enjoyable picture browsing experience. We'll give you some tips, but the requirements and specification are quite open. This directly represents how we work in the iOS team, we have guidelines, but every team member is open to introduce improvements to any area of the app.
 
 Remember, our goal is not to *compare* and *grade* the projects, but to get to know you better. We care about the quality, not quantity, we don't want you to waste your precious time.
 

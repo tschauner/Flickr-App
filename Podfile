@@ -1,4 +1,4 @@
-target 'Coon' do
+target 'JodelChallenge' do
   pod 'FlickrKit'
   pod 'AFNetworking'
 end

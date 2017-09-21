@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "9E033EDB5EC0819481B0546434FA577B"
-               BuildableName = "libAFNetworking.a"
-               BlueprintName = "AFNetworking"
+               BlueprintIdentifier = "4A900BA203AC799DFDEBE65652E315E6"
+               BuildableName = "libPods-JodelChallenge.a"
+               BlueprintName = "Pods-JodelChallenge"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -47,9 +47,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "9E033EDB5EC0819481B0546434FA577B"
-            BuildableName = "libAFNetworking.a"
-            BlueprintName = "AFNetworking"
+            BlueprintIdentifier = "4A900BA203AC799DFDEBE65652E315E6"
+            BuildableName = "libPods-JodelChallenge.a"
+            BlueprintName = "Pods-JodelChallenge"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
