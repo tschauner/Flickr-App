@@ -7,6 +7,7 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="Segues with Peek and Pop" minToolsVersion="7.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -39,6 +40,12 @@
                                             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                         </view>
+                                        <connections>
+                                            <segue destination="MOP-nh-gZG" kind="presentation" id="8jD-BW-LIy">
+                                                <segue key="commit" inheritsFrom="parent" id="JuK-ud-fM4"/>
+                                                <segue key="preview" inheritsFrom="commit" id="Tnp-nH-bcJ"/>
+                                            </segue>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
@@ -97,26 +104,36 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="BRS-0D-a7s">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="400"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XLN-Ut-6gr">
                                 <rect key="frame" x="302" y="40" width="37" height="30"/>
                                 <state key="normal" title="close"/>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tlf-aI-x4C">
+                                <rect key="frame" x="31" y="415" width="313" height="29"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="Tlf-aI-x4C" firstAttribute="top" secondItem="BRS-0D-a7s" secondAttribute="bottom" constant="15" id="0Jt-4W-QRN"/>
                             <constraint firstItem="XLN-Ut-6gr" firstAttribute="top" secondItem="SgF-1b-44A" secondAttribute="bottom" constant="20" id="0h5-jV-XSG"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Tlf-aI-x4C" secondAttribute="trailing" constant="15" id="33G-UV-NF0"/>
                             <constraint firstAttribute="trailing" secondItem="BRS-0D-a7s" secondAttribute="trailing" id="IO2-Zw-FGC"/>
+                            <constraint firstItem="Tlf-aI-x4C" firstAttribute="leading" secondItem="61n-EZ-Ooh" secondAttribute="leadingMargin" constant="15" id="On4-U0-76g"/>
                             <constraint firstItem="BRS-0D-a7s" firstAttribute="top" secondItem="61n-EZ-Ooh" secondAttribute="top" id="e7W-ac-hPF"/>
                             <constraint firstAttribute="trailingMargin" secondItem="XLN-Ut-6gr" secondAttribute="trailing" constant="20" id="hGa-FI-Uid"/>
                             <constraint firstItem="BRS-0D-a7s" firstAttribute="leading" secondItem="61n-EZ-Ooh" secondAttribute="leading" id="jgS-oX-CEJ"/>
-                            <constraint firstItem="BRS-0D-a7s" firstAttribute="height" secondItem="61n-EZ-Ooh" secondAttribute="height" id="rOn-Um-cuQ"/>
+                            <constraint firstItem="BRS-0D-a7s" firstAttribute="height" secondItem="61n-EZ-Ooh" secondAttribute="height" multiplier="0.6" id="rOn-Um-cuQ"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="closeButton" destination="XLN-Ut-6gr" id="lRo-WT-JcM"/>
                         <outlet property="pictureImageView" destination="BRS-0D-a7s" id="teZ-wo-iZV"/>
+                        <outlet property="pictureNameLabel" destination="Tlf-aI-x4C" id="YwM-fR-lnI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VTy-3a-k50" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -142,4 +159,7 @@
             <point key="canvasLocation" x="-590" y="-1194"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="8jD-BW-LIy"/>
+    </inferredMetricsTieBreakers>
 </document>

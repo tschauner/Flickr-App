@@ -19,6 +19,7 @@
 		A26156BC20150E040011DB57 /* FlickrService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26156BB20150E040011DB57 /* FlickrService.swift */; };
 		A26156C220155D1C0011DB57 /* PictureDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26156C120155D1C0011DB57 /* PictureDetailViewModel.swift */; };
 		A26156C5201565100011DB57 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26156C4201565100011DB57 /* RealmManager.swift */; };
+		A26156CC2016410F0011DB57 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26156CB2016410F0011DB57 /* UIViewController+Utils.swift */; };
 		A26B6EAF201379AE0077017F /* FeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26B6EAD201379AE0077017F /* FeedCollectionViewCell.swift */; };
 		A26B6EB0201379AE0077017F /* FeedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A26B6EAE201379AE0077017F /* FeedCollectionViewCell.xib */; };
 		A26B6EB320137B350077017F /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26B6EB120137B350077017F /* FeedViewController.swift */; };
@@ -68,6 +69,7 @@
 		A26156BB20150E040011DB57 /* FlickrService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrService.swift; sourceTree = "<group>"; };
 		A26156C120155D1C0011DB57 /* PictureDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureDetailViewModel.swift; sourceTree = "<group>"; };
 		A26156C4201565100011DB57 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
+		A26156CB2016410F0011DB57 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
 		A26B6EAD201379AE0077017F /* FeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewCell.swift; sourceTree = "<group>"; };
 		A26B6EAE201379AE0077017F /* FeedCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeedCollectionViewCell.xib; sourceTree = "<group>"; };
 		A26B6EB120137B350077017F /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
@@ -169,6 +171,7 @@
 		3FBCC7431F73AE9200D35147 /* JodelChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				A26156C8201640D80011DB57 /* Extensions */,
 				A26156C3201564EC0011DB57 /* Managers */,
 				A26B6EB9201390C50077017F /* Model */,
 				A26156BD201538770011DB57 /* Scenes */,
@@ -252,6 +255,14 @@
 				A26156C4201565100011DB57 /* RealmManager.swift */,
 			);
 			path = Managers;
+			sourceTree = "<group>";
+		};
+		A26156C8201640D80011DB57 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A26156CB2016410F0011DB57 /* UIViewController+Utils.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		A26B6EB9201390C50077017F /* Model */ = {
@@ -476,6 +487,7 @@
 				A26B6EB320137B350077017F /* FeedViewController.swift in Sources */,
 				3F5224401F73B0C100D7D77A /* FlickrApi.m in Sources */,
 				A26B6EC72014CF6B0077017F /* PictureDetailViewController.swift in Sources */,
+				A26156CC2016410F0011DB57 /* UIViewController+Utils.swift in Sources */,
 				A26B6EB6201380F70077017F /* FeedViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
