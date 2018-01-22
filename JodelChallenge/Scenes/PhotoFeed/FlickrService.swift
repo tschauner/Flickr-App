@@ -8,14 +8,13 @@
 
 import UIKit
 import FlickrKit
+import RealmSwift
 
 class FlickrService {
     
 typealias Closure<T> = ((T) -> Void)
     
-    
-    
-    
+
     func fetchPhotos(page: Int = 0, with completion: @escaping Closure<[FlickrPhoto]>, failure: @escaping Closure<Error>) {
         
         let flicker = FlickrKit.shared()
@@ -29,11 +28,6 @@ typealias Closure<T> = ((T) -> Void)
             
             DispatchQueue.main.async(execute: { () -> Void in
                 if let response = response, let photoArray = FlickrKit.shared().photoArray(fromResponse: response) {
-                    // Pull out the photo urls from the results
-                    //guard let title = topPhotos["title"] as? String else { return }
-                    //print(title)
-                   
-                    
                     do {
                         let jsonDecoder = JSONDecoder()
                         
@@ -44,14 +38,27 @@ typealias Closure<T> = ((T) -> Void)
                     } catch let error {
                         failure(error)
                     }
-                    
                 } else {
-                    // Iterating over specific errors for each service
                     if let error = error {
                         failure(error)
                     }
                 }
             })
         }
+    }
+    
+    func fetchPhotosFromRealm(results: @escaping Closure<[FlickrPhoto]>) {
+        RealmManager.shared.fetchAll { (photos: [FlickrPhoto]) in
+            results(photos)
+        }
+    }
+    
+    func savePhotosToRealm(photos: [FlickrPhoto]) {
+        photos.forEach { (photo) in
+            RealmManager.shared.create(photo, updateExisting: true, complete: {
+                
+            })
+        }
+        
     }
 }

@@ -11,7 +11,8 @@ import FlickrKit
 import SVProgressHUD
 
 protocol FeedProtocol: NSObjectProtocol {
-    func photosUpdated(photos: [FlickrPhoto])
+    func photosUpdated()
+    func showErrorAlert(withText text: String)
 }
 
 class FeedViewModel {
@@ -28,19 +29,26 @@ class FeedViewModel {
     }
     
     func fetchPhotos() {
-        
-     
         service.fetchPhotos(page: page, with: { [weak self] photos in
             if self?.page == 0 {
                self?.pictures = photos
             } else {
                 self?.pictures.append(contentsOf: photos)
+                self?.service.savePhotosToRealm(photos: photos)
             }
             
-            self?.delegate?.photosUpdated(photos: photos)
+            self?.delegate?.photosUpdated()
            
         }) { (error) in
-            
+            self.delegate?.showErrorAlert(withText: error.localizedDescription)
+            self.fetchPhotosFromRealm()
+        }
+    }
+    
+    func fetchPhotosFromRealm() {
+        service.fetchPhotosFromRealm { [weak self] photos in
+            self?.pictures = photos
+            self?.delegate?.photosUpdated()
         }
     }
 }
