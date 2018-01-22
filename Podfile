@@ -5,6 +5,7 @@ target 'JodelChallenge' do
   pod 'AFNetworking'
   pod 'AlamofireImage'
   pod 'SVProgressHUD'
+  pod 'Hero', '~> 1.0'
   
   use_frameworks!
 end
