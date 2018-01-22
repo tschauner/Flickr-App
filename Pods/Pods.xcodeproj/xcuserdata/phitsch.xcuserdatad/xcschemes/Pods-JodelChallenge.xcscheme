@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "4B1E39620F7F3B7B55DA0897BDA19EB1"
+               BlueprintIdentifier = "A9F4244068AA875C9548E52F7138CD0A"
                BuildableName = "Pods_JodelChallenge.framework"
                BlueprintName = "Pods-JodelChallenge"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "4B1E39620F7F3B7B55DA0897BDA19EB1"
+            BlueprintIdentifier = "A9F4244068AA875C9548E52F7138CD0A"
             BuildableName = "Pods_JodelChallenge.framework"
             BlueprintName = "Pods-JodelChallenge"
             ReferencedContainer = "container:Pods.xcodeproj">

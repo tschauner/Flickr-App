@@ -7,10 +7,11 @@
 //
 
 import UIKit
+import Hero
 
 extension FeedViewController: FeedProtocol {
     
-    func photosUpdated(photos: [FlickrPhoto]) {
+    func photosUpdated() {
         self.feedCollectionView.reloadData()
         refreshControl.endRefreshing()
         loadingNextPage = false
@@ -28,7 +29,6 @@ class FeedViewController: UIViewController {
     let refreshControl = UIRefreshControl()
     let feedViewModel = FeedViewModel()
     var loadingNextPage = false
-    var selectedImage: UIImageView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -63,6 +63,11 @@ class FeedViewController: UIViewController {
     func setupNavigationBar() {
         navigationItem.title = "Flickrgram"
         navigationController?.hidesBarsOnSwipe = true
+    }
+    
+    func showErrorAlert(withText text: String) {
+        let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
+        showAlert(title: "OOOOPS", contentText: text, actions: [okAction])
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -104,6 +109,11 @@ extension FeedViewController: UICollectionViewDelegateFlowLayout, UICollectionVi
         
         return size
         
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        guard let cell = collectionView.cellForItem(at: indexPath) else { return }
+        performSegue(withIdentifier: "showDetail", sender: cell)
     }
     
 }

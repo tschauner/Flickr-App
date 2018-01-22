@@ -19,6 +19,11 @@ PODS:
     - Alamofire (~> 4.5)
   - FlickrKit (1.0.9)
   - Hero (1.0.1)
+  - Realm (3.1.0):
+    - Realm/Headers (= 3.1.0)
+  - Realm/Headers (3.1.0)
+  - RealmSwift (3.1.0):
+    - Realm (= 3.1.0)
   - SVProgressHUD (2.2.2)
 
 DEPENDENCIES:
@@ -26,6 +31,8 @@ DEPENDENCIES:
   - AlamofireImage
   - FlickrKit
   - Hero (~> 1.0)
+  - Realm
+  - RealmSwift
   - SVProgressHUD
 
 SPEC CHECKSUMS:
@@ -34,8 +41,10 @@ SPEC CHECKSUMS:
   AlamofireImage: 2e784dc5d00f04903a52c1d169181469c805c3df
   FlickrKit: 79ffaf64a12293ba2b1aa8a2e53a4958cb113256
   Hero: cee286821578e170d8c0c9c9cda7897357401112
+  Realm: 09513d7c054678d65cd02ce09871f805b0d758ac
+  RealmSwift: e868fee9b10e5490ad94b6b6ecd9027944da1824
   SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
 
-PODFILE CHECKSUM: b308f933d053cb914cbe737358d308a0188804f0
+PODFILE CHECKSUM: d003e88acad7685070052b07bc5922b0fa81edb5
 
 COCOAPODS: 1.3.1
