@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="FeedCollectionViewCell" customModule="JodelChallenge" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="363" height="471"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="363" height="471"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kCy-Er-si5">
+                        <rect key="frame" x="0.0" y="0.0" width="363" height="471"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wll-3f-Kqa">
+                                <rect key="frame" x="25" y="25" width="313" height="421"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="beach" translatesAutoresizingMaskIntoConstraints="NO" id="v2C-6y-bEy">
+                                <rect key="frame" x="15" y="15" width="333" height="441"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="dlv-Mv-T88">
+                                <rect key="frame" x="171" y="225.5" width="20" height="20"/>
+                            </activityIndicatorView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DDC-dj-33W">
+                                <rect key="frame" x="40" y="394.5" width="293" height="31.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="v2C-6y-bEy" firstAttribute="top" secondItem="kCy-Er-si5" secondAttribute="top" constant="15" id="8K7-aj-Zbc"/>
+                            <constraint firstItem="Wll-3f-Kqa" firstAttribute="top" secondItem="v2C-6y-bEy" secondAttribute="top" constant="10" id="9Z0-Z4-EKa"/>
+                            <constraint firstItem="v2C-6y-bEy" firstAttribute="leading" secondItem="kCy-Er-si5" secondAttribute="leading" constant="15" id="9jj-xJ-XHC"/>
+                            <constraint firstItem="DDC-dj-33W" firstAttribute="trailing" secondItem="v2C-6y-bEy" secondAttribute="trailing" constant="-15" id="BOn-86-Lbj"/>
+                            <constraint firstItem="dlv-Mv-T88" firstAttribute="centerY" secondItem="v2C-6y-bEy" secondAttribute="centerY" id="QxO-CM-WKx"/>
+                            <constraint firstItem="Wll-3f-Kqa" firstAttribute="leading" secondItem="v2C-6y-bEy" secondAttribute="leading" constant="10" id="gon-mf-Hxz"/>
+                            <constraint firstAttribute="bottom" secondItem="v2C-6y-bEy" secondAttribute="bottom" constant="15" id="lVS-qp-48p"/>
+                            <constraint firstItem="DDC-dj-33W" firstAttribute="leading" secondItem="kCy-Er-si5" secondAttribute="leading" constant="40" id="npE-Lz-jy0"/>
+                            <constraint firstItem="Wll-3f-Kqa" firstAttribute="trailing" secondItem="v2C-6y-bEy" secondAttribute="trailing" constant="-10" id="ov5-zS-bsE"/>
+                            <constraint firstAttribute="trailing" secondItem="v2C-6y-bEy" secondAttribute="trailing" constant="15" id="pUA-ra-6BW"/>
+                            <constraint firstItem="Wll-3f-Kqa" firstAttribute="bottom" secondItem="v2C-6y-bEy" secondAttribute="bottom" constant="-10" id="ugM-a4-6Jf"/>
+                            <constraint firstItem="dlv-Mv-T88" firstAttribute="centerX" secondItem="v2C-6y-bEy" secondAttribute="centerX" id="wQF-DY-sUd"/>
+                            <constraint firstAttribute="bottom" secondItem="DDC-dj-33W" secondAttribute="bottom" constant="45" id="wWS-MT-WPe"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="kCy-Er-si5" secondAttribute="bottom" id="11B-ST-rpC"/>
+                <constraint firstItem="kCy-Er-si5" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="fjk-Ii-gTa"/>
+                <constraint firstAttribute="trailing" secondItem="kCy-Er-si5" secondAttribute="trailing" id="v2n-3a-fhc"/>
+                <constraint firstItem="kCy-Er-si5" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="xSw-WK-PJc"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="363" height="471"/>
+            <connections>
+                <outlet property="activityIndicator" destination="dlv-Mv-T88" id="pMJ-Xr-ygF"/>
+                <outlet property="imageNameLabel" destination="DDC-dj-33W" id="gkm-TQ-WBI"/>
+                <outlet property="pictureImageView" destination="v2C-6y-bEy" id="fSa-hE-ifa"/>
+                <outlet property="shadowView" destination="Wll-3f-Kqa" id="pEH-rN-qOF"/>
+            </connections>
+            <point key="canvasLocation" x="44.5" y="232.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="beach" width="3024" height="4032"/>
+    </resources>
+</document>
