@@ -44,14 +44,14 @@ class FeedCollectionViewCell: UICollectionViewCell {
         }
         
         gradient = CAGradientLayer()
-        gradient?.colors = [UIColor.clear.cgColor, UIColor.darkGray.cgColor]
+        gradient?.colors = [UIColor.clear.cgColor, UIColor(white: 0.2, alpha: 0.9).cgColor]
         pictureImageView.layer.addSublayer(gradient!)
     }
     
     override func layoutSubviews() {
         super.layoutSubviews()
         
-        let gradientHeight: CGFloat = 50
+        let gradientHeight: CGFloat = 70
         gradient?.frame = CGRect.init(x: 0,
                                       y: pictureImageView.bounds.maxY - gradientHeight,
                                       width: pictureImageView.bounds.width,
