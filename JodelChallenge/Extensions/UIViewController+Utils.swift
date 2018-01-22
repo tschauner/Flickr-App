@@ -6,4 +6,19 @@
 //  Copyright © 2018 Jodel. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+extension UIViewController {
+    
+    func showAlert(title: String, contentText: String, actions: [UIAlertAction]) {
+        DispatchQueue.main.async {
+            let alertController = UIAlertController(title: title, message: contentText, preferredStyle: .alert)
+            for action in actions {
+                alertController.addAction(action)
+            }
+            let generator = UINotificationFeedbackGenerator()
+            generator.notificationOccurred(.error)
+            self.present(alertController, animated: true, completion: nil)
+        }
+    }
+}
