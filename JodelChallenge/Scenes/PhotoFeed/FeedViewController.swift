@@ -96,7 +96,7 @@ class FeedViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let currentCell = sender as? FeedCollectionViewCell,
             let vc = segue.destination as? PhotoDetailViewController {
-            vc.pictureDetailViewModel.flickrImage = currentCell.flickrPhoto
+            vc.photoDetailViewModel.flickrImage = currentCell.flickrPhoto
         }
     }
 

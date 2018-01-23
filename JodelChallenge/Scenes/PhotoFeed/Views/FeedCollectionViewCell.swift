@@ -104,7 +104,7 @@ class FeedCollectionViewCell: UICollectionViewCell {
         shadowView.alpha = 0
         shadowView.layer.shadowColor = UIColor.black.cgColor
         shadowView.layer.cornerRadius = 20
-        shadowView.layer.shadowOpacity = 1
+        shadowView.layer.shadowOpacity = 0.7
         shadowView.layer.shadowRadius = 10
     
     }
