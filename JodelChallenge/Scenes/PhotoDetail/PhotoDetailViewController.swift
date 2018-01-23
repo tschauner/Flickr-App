@@ -25,7 +25,7 @@ class PhotoDetailViewController: UIViewController {
     @IBOutlet weak var pictureImageView: UIImageView!
     @IBOutlet weak var closeButton: UIButton!
     
-    var pictureDetailViewModel = PhotoDetailViewModel()
+    var photoViewModel = PhotoDetailViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -48,7 +48,7 @@ class PhotoDetailViewController: UIViewController {
     /// sets hero ids
     func setupViews() {
         
-        guard let photo = pictureDetailViewModel.flickrImage else { return }
+        guard let photo = photoViewModel.flickrImage else { return }
         
         pictureNameLabel.heroID = "\(photo.id)_name"
         pictureImageView.heroID = "\(photo.id)_name"

@@ -10,7 +10,7 @@ import UIKit
 import FlickrKit
 import RealmSwift
 
-class FlickrService {
+class FeedViewService {
     
 typealias Closure<T> = ((T) -> Void)
     

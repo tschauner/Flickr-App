@@ -17,7 +17,7 @@ protocol FeedProtocol: NSObjectProtocol {
 
 class FeedViewModel {
     
-    let service = FlickrService()
+    let service = FeedViewService()
     weak var delegate: FeedProtocol?
     var page = 0
     
