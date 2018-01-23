@@ -21,9 +21,30 @@ class JodelChallengeTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testJSONMapping() {
+        
+        let bundle = Bundle(for: type(of: self))
+        guard let url = bundle.url(forResource: "response", withExtension: "json") else {
+            XCTFail("Missing file: User.json")
+            return
+        }
+          let jsonDecoder = JSONDecoder()
+        
+        do {
+            let data = try Data.init(contentsOf: url)
+            let jsonObject = try JSONSerialization.jsonObject(with: data, options: .mutableContainers)
+            let jsonData = try JSONSerialization.data(withJSONObject: jsonObject, options: .prettyPrinted)
+            let photos = try jsonDecoder.decode(FlickrPhoto.self, from: jsonData)
+            
+            XCTAssertEqual(photos.title, "Coding challenge")
+            XCTAssertEqual(photos.id, "12349")
+            
+        } catch let error {
+            XCTFail(error.localizedDescription)
+        }
+        
+
+        
     }
     
     func testPerformanceExample() {

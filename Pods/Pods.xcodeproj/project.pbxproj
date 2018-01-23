@@ -86,6 +86,7 @@
 		192875B92DE598F9BDC53E7E32091253 /* FKFlickrPhotosetsCommentsAddComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 7437E0B2F834E3943370CA9753A3B772 /* FKFlickrPhotosetsCommentsAddComment.m */; };
 		1947F5148B4F4B1431CB027C4F0E3520 /* FKFlickrStatsGetCollectionReferrers.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EF599512A379A23F72E4996C335CE59 /* FKFlickrStatsGetCollectionReferrers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		199B8AD8AF8359C0B4FD6E292C3FCD99 /* FKFlickrPlacesGetInfoByUrl.h in Headers */ = {isa = PBXBuildFile; fileRef = 013B65BA23462A51E5F45D97D47B7761 /* FKFlickrPlacesGetInfoByUrl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19B20CED0B0B2BFA6532787B74750B9F /* Pods-JodelChallengeTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2EF86EAA6455832BF0C667AC423106 /* Pods-JodelChallengeTests-dummy.m */; };
 		19B8062BDF037B8A451D907999D65ACD /* FKFlickrPhotosSetPerms.m in Sources */ = {isa = PBXBuildFile; fileRef = 8116ABCA59ED2230263460AF57873851 /* FKFlickrPhotosSetPerms.m */; };
 		1A02E01E1D90C7CC73A6B9C1CE6661F1 /* FKUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = B1F48BB2C91B8059CA4146C6FC28BBDC /* FKUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1A4184FCD6E86D8CEA0031C043298BF7 /* FKFlickrPlacesGetInfoByUrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 794B2A293298BFCEE87B993099A6D060 /* FKFlickrPlacesGetInfoByUrl.m */; };
@@ -176,6 +177,7 @@
 		30E35B6FC1DD0735A248D9C91E7A8B23 /* FKFlickrPlacesFindByLatLon.h in Headers */ = {isa = PBXBuildFile; fileRef = 4689E3C7707C5180C5EECFE0658E463B /* FKFlickrPlacesFindByLatLon.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30F0BAE1DBB79BBB6CBD957EA8B89E4B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52EF8AEBA24FC4666F8E3CB3F10077FC /* MobileCoreServices.framework */; };
 		30FED21BEA9B5A0ADC099B0A7C738122 /* FKReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 22E2B6CA179C83A4C9D42442644B68D3 /* FKReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		315DFD6AFDDD6F7224281414F7E3A2C1 /* Pods-JodelChallengeTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24487FA161303CC956119B2AA6090402 /* Pods-JodelChallengeTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		31733FD63CAE9635D4C1498BF252E446 /* RLMMigration_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F2BC593DCA978D40F245DD2E2F4A26D /* RLMMigration_Private.h */; };
 		31813673EBB40C7BA780FC386BD40569 /* FKFlickrPhotosGetPerms.m in Sources */ = {isa = PBXBuildFile; fileRef = 72DDB43CB4517DD239D8A440AEDE3645 /* FKFlickrPhotosGetPerms.m */; };
 		31850EFE7F5202ED9B9455272D8C81D4 /* FKFlickrFavoritesRemove.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B374802905B1DAAE9E71F1EEACAB37C /* FKFlickrFavoritesRemove.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -459,6 +461,7 @@
 		9009A7B9C79F5A0B6E55EFAECA5E2FBF /* FKFlickrGalleriesGetPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AE384ADBCF083EF45E2D6B5EC3409D7 /* FKFlickrGalleriesGetPhotos.m */; };
 		901419B2D4EF0A51B8479C8920775564 /* FKFlickrPeopleGetLimits.m in Sources */ = {isa = PBXBuildFile; fileRef = E7F2E0D0E83EEACFB8C84AE9217D22A5 /* FKFlickrPeopleGetLimits.m */; };
 		902AA5F4CF40B1DDE071EB8AE8550719 /* FKFlickrGroupsBrowse.m in Sources */ = {isa = PBXBuildFile; fileRef = 4482DD76443AD4A6EBFEAF04E4A29072 /* FKFlickrGroupsBrowse.m */; };
+		903F02B903C6B06438F89ED8FC94539D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50E8738D824E6F40E1DE563E423709AA /* Foundation.framework */; };
 		90638F62819EE8AA65DAC1938B5E1D6C /* sync_session.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CC302E9F45E35F015BEDB9C66B5552EF /* sync_session.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.1.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		90A03DD74308F5059B94A7628AA3C961 /* FKFlickrMachinetagsGetNamespaces.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B2961CA5CF409A125FAF5E9C391F39B /* FKFlickrMachinetagsGetNamespaces.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90F9BC0065E234BC595DD10E2B1D9C07 /* FKFlickrFavoritesGetContext.h in Headers */ = {isa = PBXBuildFile; fileRef = D61A842F70E2210CF238776595826EC3 /* FKFlickrFavoritesGetContext.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -604,7 +607,7 @@
 		C176513199B6D7465746FB2CE1916E90 /* RLMObject.h in Copy . Public Headers */ = {isa = PBXBuildFile; fileRef = C1E6E65C227DA9ECC088453E38087AE6 /* RLMObject.h */; };
 		C1B28CD2990AD94CB368F4437D3F7C6E /* uuid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CE7D6F7D0A47822DF48F93F19B4345DA /* uuid.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.1.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
 		C23A7FC762CB48C896A7A6CB67DD443C /* RLMRealm.mm in Sources */ = {isa = PBXBuildFile; fileRef = 971274C11F6045EEC121AC17B828CB1E /* RLMRealm.mm */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.1.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
-		C2A33301FBF665C6C7657CB4A5656DEC /* Pods-JodelChallenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 91F25F4B5CC6ADE66E96A983DA71A865 /* Pods-JodelChallenge-dummy.m */; };
+		C2A33301FBF665C6C7657CB4A5656DEC /* Pods-JodelChallenge-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 882E254AC9055AAD1579DCAAB027A588 /* Pods-JodelChallenge-dummy.m */; };
 		C3EECE147FDE014B9D99D1AB7FFE3489 /* FKFlickrMachinetagsGetValues.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CB590C1C9ABE1DF0C3AE665601D431 /* FKFlickrMachinetagsGetValues.m */; };
 		C49DA7A17249EC047357E66C1B02E2E3 /* RLMCollection_Private.h in Copy . Private Headers */ = {isa = PBXBuildFile; fileRef = 0A3B26CEC585F28658D7651E3F259581 /* RLMCollection_Private.h */; };
 		C59BCFD9AD3275F9641ED3386B4CD01B /* sync_user.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C8C184519342FF209D04A2B7C47E20A /* sync_user.cpp */; settings = {COMPILER_FLAGS = "-DREALM_HAVE_CONFIG -DREALM_COCOA_VERSION='@\"3.1.0\"' -D__ASSERTMACROS__ -DREALM_ENABLE_SYNC"; }; };
@@ -783,7 +786,7 @@
 		FECBB66193CE1380EB2721092577B4F4 /* FKFlickrBlogsGetList.h in Headers */ = {isa = PBXBuildFile; fileRef = DB2C5CD813C6CE3981CCAF1096AFA7E3 /* FKFlickrBlogsGetList.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FECF9977EFF8032BAA33DF4F123C3B6C /* FKFlickrAuthOauthCheckToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B50CD0A3A6A1BC634125F21852E0FA6 /* FKFlickrAuthOauthCheckToken.m */; };
 		FEF6EACE962EAE70E2EAC5F3C83EF7C8 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = A6573C9966B4B55A0F0B0DB23D6A079E /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF0A8903D4728BD0C242B17382E45D2C /* Pods-JodelChallenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 48C1A6F6070C0DC8F803656F3B72DE58 /* Pods-JodelChallenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF0A8903D4728BD0C242B17382E45D2C /* Pods-JodelChallenge-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4439CCE5C1DEED3B414F4D23EC30270E /* Pods-JodelChallenge-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF60D73AE0A5715C7CEBC447ED997D2F /* FKFlickrPhotosetsDelete.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F4D6B25A6381B7E9733ED987CAD3CEE /* FKFlickrPhotosetsDelete.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FFC5384861F5E6649D7760C412538B9A /* RLMMigration.h in Headers */ = {isa = PBXBuildFile; fileRef = C004D4DEE7A7212C0EFBB19785FD6827 /* RLMMigration.h */; };
 		FFDBCF5309BD961C4C51C37ACBDE2076 /* FKFlickrContactsGetListRecentlyUploaded.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEB4F5CD4E885E14A7EF3D569C854A3 /* FKFlickrContactsGetListRecentlyUploaded.m */; };
@@ -791,6 +794,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		1E9181F9C072741A5ED03433883FFFA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDDCEBAFE4BDECB6C319C1B6DFF9470A;
+			remoteInfo = SVProgressHUD;
+		};
+		223122346DA91ED143BF37A4BF423DB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F593CEB3E5D3316F42B0F15EB47206A0;
+			remoteInfo = Realm;
+		};
 		546507C686AE2867209E9AE95E5D3858 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
@@ -811,6 +828,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = CF671F7E57B92905F1CC91D036D6B4A7;
 			remoteInfo = AFNetworking;
+		};
+		69B36E83CB2CFA477CDF00533B260228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88E9EC28B8B46C3631E6B242B50F4442;
+			remoteInfo = Alamofire;
+		};
+		92C292043C255FAA56301575CC2F889C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9EFE4C70245EE2857D336B8B9FA4E825;
+			remoteInfo = AlamofireImage;
+		};
+		96A1672ECD807858401957E69B2824FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1D2C6B2423E1D67F01F334C97C168DD;
+			remoteInfo = FlickrKit;
 		};
 		97DBD8B4AF198D33B24E6F249ACCA80F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -839,6 +877,27 @@
 			proxyType = 1;
 			remoteGlobalIDString = B1D2C6B2423E1D67F01F334C97C168DD;
 			remoteInfo = FlickrKit;
+		};
+		C4698006E518E7B298D92899953E7894 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF671F7E57B92905F1CC91D036D6B4A7;
+			remoteInfo = AFNetworking;
+		};
+		C6528CFA5C8D8D6C7876849DF2DDC88D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83C26A1A65032AB1408D01604F119111;
+			remoteInfo = Hero;
+		};
+		CE849E81993996371BEC62205FF46DD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA10D13DDC35D2C8C02AE279F4374C0E;
+			remoteInfo = RealmSwift;
 		};
 		DA63E6349A80539D5E87C16A40238E96 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -1030,15 +1089,17 @@
 		1FDAC410ADD4D501EE6F8529A1687A6E /* FKFlickrTagsGetClusters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrTagsGetClusters.h; path = Classes/Model/Generated/Tags/FKFlickrTagsGetClusters.h; sourceTree = "<group>"; };
 		206A516B3646ABCD8ED6742D5E0FFB7C /* RLMSchema.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSchema.h; path = include/RLMSchema.h; sourceTree = "<group>"; };
 		20879945AB6143406B0A50FE0B0B8CD7 /* FKFlickrStatsGetPhotosetDomains.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrStatsGetPhotosetDomains.m; path = Classes/Model/Generated/Stats/FKFlickrStatsGetPhotosetDomains.m; sourceTree = "<group>"; };
-		21137ACDA21CC75884E08C9159753459 /* Pods-JodelChallenge-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JodelChallenge-resources.sh"; sourceTree = "<group>"; };
+		2130207129ECAD85FB636009E9BA2FFF /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlamofireImage.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		217381F589742D6EE4E8E91728070E20 /* HeroTransition+Interactive.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Interactive.swift"; path = "Sources/Transition/HeroTransition+Interactive.swift"; sourceTree = "<group>"; };
 		218C7A00FDEC0D8F96F92E3466F12E23 /* FKFlickrPhotosGetContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosGetContext.h; path = Classes/Model/Generated/Photos/FKFlickrPhotosGetContext.h; sourceTree = "<group>"; };
 		21B0B72A63DFECF083024E2137F5C1C7 /* FKFlickrTestNull.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrTestNull.m; path = Classes/Model/Generated/Test/FKFlickrTestNull.m; sourceTree = "<group>"; };
 		21B7D3BE2BFCDD3E3340B9B6D9F68058 /* FKDUStreamUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKDUStreamUtil.m; path = Classes/DevedUpKit/FKDUStreamUtil.m; sourceTree = "<group>"; };
+		21EAC6A2DC27B9D179A290F5EA65721C /* Pods_JodelChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JodelChallenge.framework; path = "Pods-JodelChallenge.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E2B6CA179C83A4C9D42442644B68D3 /* FKReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKReachability.h; path = Classes/Network/Reachability/FKReachability.h; sourceTree = "<group>"; };
 		23094541CCE54F994802AE49D4934303 /* FKFlickrPlacesPlacesForBoundingBox.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPlacesPlacesForBoundingBox.m; path = Classes/Model/Generated/Places/FKFlickrPlacesPlacesForBoundingBox.m; sourceTree = "<group>"; };
 		231A538C2AF44E55D97917290F738699 /* DispatchQueue+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Hero.swift"; path = "Sources/Extensions/DispatchQueue+Hero.swift"; sourceTree = "<group>"; };
 		239500B0067ED2A49BFA2495C470ED47 /* FKFlickrPhotosGetWithGeoData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosGetWithGeoData.h; path = Classes/Model/Generated/Photos/FKFlickrPhotosGetWithGeoData.h; sourceTree = "<group>"; };
+		24487FA161303CC956119B2AA6090402 /* Pods-JodelChallengeTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JodelChallengeTests-umbrella.h"; sourceTree = "<group>"; };
 		244E73CC5EF399EFEBF97AC7DA90B40C /* FKFlickrPhotosDelete.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosDelete.h; path = Classes/Model/Generated/Photos/FKFlickrPhotosDelete.h; sourceTree = "<group>"; };
 		24A77EB5C5B31C04CBFD60C385871DD4 /* SwiftVersion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftVersion.swift; path = RealmSwift/SwiftVersion.swift; sourceTree = "<group>"; };
 		256032EB09D344EDC3EB8F54E1CAD818 /* FKFlickrPlacesResolvePlaceURL.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPlacesResolvePlaceURL.m; path = Classes/Model/Generated/Places/FKFlickrPlacesResolvePlaceURL.m; sourceTree = "<group>"; };
@@ -1066,7 +1127,6 @@
 		2BB20068E49575753E05B74B4E9FF996 /* FKFlickrPlacesTagsForPlace.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPlacesTagsForPlace.h; path = Classes/Model/Generated/Places/FKFlickrPlacesTagsForPlace.h; sourceTree = "<group>"; };
 		2C2C2FBD469ACB0FD258D259F8FEEDB1 /* FKFlickrFavoritesRemove.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrFavoritesRemove.m; path = Classes/Model/Generated/Favorites/FKFlickrFavoritesRemove.m; sourceTree = "<group>"; };
 		2C9181E5003DD711E65D4E573608FF29 /* FKFlickrPlacesPlacesForContacts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPlacesPlacesForContacts.m; path = Classes/Model/Generated/Places/FKFlickrPlacesPlacesForContacts.m; sourceTree = "<group>"; };
-		2D55DEF7FBF7CA1BDD60867C9B72E844 /* Pods-JodelChallenge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JodelChallenge.modulemap"; sourceTree = "<group>"; };
 		2E106698F710F24FE61D81A31EC7C5CF /* RLMUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMUtil.mm; path = Realm/RLMUtil.mm; sourceTree = "<group>"; };
 		2E25E2B47C40BA5017FAFCE65ACB165E /* AlamofireImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AlamofireImage.modulemap; sourceTree = "<group>"; };
 		2E478D06A9C599B53817B82FA5FF825B /* FKFlickrPhotosCommentsEditComment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosCommentsEditComment.h; path = Classes/Model/Generated/Photos/Comments/FKFlickrPhotosCommentsEditComment.h; sourceTree = "<group>"; };
@@ -1079,7 +1139,6 @@
 		2FA9A08B08533E81CCE95DBB07A816D7 /* UIButton+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIButton+AlamofireImage.swift"; path = "Source/UIButton+AlamofireImage.swift"; sourceTree = "<group>"; };
 		2FDFA715110076CD78C0DA88AB2FE23F /* HeroTransition+Animate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+Animate.swift"; path = "Sources/Transition/HeroTransition+Animate.swift"; sourceTree = "<group>"; };
 		300BF439BB0F88E0D112C5742478255A /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		303952C4949A2DBE924318BF2F61E6A5 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30B4475A13BC6ACD79F1110B10F55988 /* FKFlickrCamerasGetBrandModels.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrCamerasGetBrandModels.m; path = Classes/Model/Generated/Cameras/FKFlickrCamerasGetBrandModels.m; sourceTree = "<group>"; };
 		30DD6DF5ACBF780CEAABC1B4B985BB77 /* HeroViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroViewControllerDelegate.swift; path = Sources/HeroViewControllerDelegate.swift; sourceTree = "<group>"; };
 		3112D8D905133CD583690B45A8F34B5F /* RLMSyncManager.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncManager.mm; path = Realm/RLMSyncManager.mm; sourceTree = "<group>"; };
@@ -1088,7 +1147,7 @@
 		322F1F1FA45E017C25C84CCEBD3914C9 /* list.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = list.cpp; path = Realm/ObjectStore/src/list.cpp; sourceTree = "<group>"; };
 		32354453AC4626A4C5A6E79350C6A810 /* FKFlickrPhotosGetAllContexts.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosGetAllContexts.m; path = Classes/Model/Generated/Photos/FKFlickrPhotosGetAllContexts.m; sourceTree = "<group>"; };
 		33F5301902E9A90E24527B23F3537BF2 /* FKFlickrTagsGetListUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrTagsGetListUser.m; path = Classes/Model/Generated/Tags/FKFlickrTagsGetListUser.m; sourceTree = "<group>"; };
-		3444D778C6F387162E27758732DF5519 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Realm.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33FCF74D64300B8C609B29BFDFC169A1 /* Pods-JodelChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JodelChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		347D516C8626BF16F29BB5EF128390A9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3491E2BECCE607D6D4405C4874153D86 /* FKFlickrPhotosetsCommentsDeleteComment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosetsCommentsDeleteComment.m; path = Classes/Model/Generated/Photosets/Comments/FKFlickrPhotosetsCommentsDeleteComment.m; sourceTree = "<group>"; };
 		3513B03047F64D969C7122AEC2AEA5AC /* RLMResults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMResults.h; path = include/RLMResults.h; sourceTree = "<group>"; };
@@ -1102,6 +1161,7 @@
 		37917C481F165C1DB43C8770754F24AD /* FKImageUploadNetworkOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKImageUploadNetworkOperation.h; path = Classes/Network/FKImageUploadNetworkOperation.h; sourceTree = "<group>"; };
 		37A075B12C152708AA1C810ABC32AE90 /* RLMArray.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMArray.mm; path = Realm/RLMArray.mm; sourceTree = "<group>"; };
 		37ADD8593B87C27F406491DA846A4940 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		38702EA1B6DAAA07D9F799707FEBDDF7 /* Pods-JodelChallenge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JodelChallenge-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3886C1C1C7EB722D1BEDE7E5E17B9DE2 /* FKFlickrStatsGetCollectionDomains.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrStatsGetCollectionDomains.h; path = Classes/Model/Generated/Stats/FKFlickrStatsGetCollectionDomains.h; sourceTree = "<group>"; };
 		3899E52B10BD8D75A3EA80D27D26523F /* FKFlickrStatsGetPhotoDomains.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrStatsGetPhotoDomains.m; path = Classes/Model/Generated/Stats/FKFlickrStatsGetPhotoDomains.m; sourceTree = "<group>"; };
 		38A998E731A951C7298A48E24BE9B687 /* FKFlickrPlacesGetTopPlacesList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPlacesGetTopPlacesList.h; path = Classes/Model/Generated/Places/FKFlickrPlacesGetTopPlacesList.h; sourceTree = "<group>"; };
@@ -1118,6 +1178,7 @@
 		3B9647F1598D5A2EEB03D4612B32542C /* FKFlickrPlacesGetInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPlacesGetInfo.h; path = Classes/Model/Generated/Places/FKFlickrPlacesGetInfo.h; sourceTree = "<group>"; };
 		3BF437E2FFBCCC2C9CA2047F31C85552 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
 		3C0CDF5FA441978DB44E8AF52DCD726E /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		3C2EF86EAA6455832BF0C667AC423106 /* Pods-JodelChallengeTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JodelChallengeTests-dummy.m"; sourceTree = "<group>"; };
 		3C423A2065616182535A7E0EDCB08874 /* FKFlickrPhotosPeopleDeleteCoords.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosPeopleDeleteCoords.m; path = Classes/Model/Generated/Photos/People/FKFlickrPhotosPeopleDeleteCoords.m; sourceTree = "<group>"; };
 		3C799824B6FF394F50FF5AAD61CDBB0B /* FKFlickrPhotosNotesDelete.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosNotesDelete.h; path = Classes/Model/Generated/Photos/Notes/FKFlickrPhotosNotesDelete.h; sourceTree = "<group>"; };
 		3C8AF8ED65C37527E1DA4D5E7A39B39F /* FKFlickrPhotosGeoGetPerms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosGeoGetPerms.h; path = Classes/Model/Generated/Photos/Geo/FKFlickrPhotosGeoGetPerms.h; sourceTree = "<group>"; };
@@ -1133,6 +1194,7 @@
 		3F43441D33497FDAA3413A4B08755F24 /* DefaultAnimationPreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DefaultAnimationPreprocessor.swift; path = Sources/Preprocessors/DefaultAnimationPreprocessor.swift; sourceTree = "<group>"; };
 		3F5A058714CA8AF5D3C19415442AD9E0 /* FKFlickrPhotosetsRemovePhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosetsRemovePhotos.h; path = Classes/Model/Generated/Photosets/FKFlickrPhotosetsRemovePhotos.h; sourceTree = "<group>"; };
 		3F8DCF5702B3026F14364B3506442E1A /* FKFlickrTagsGetListUserPopular.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrTagsGetListUserPopular.h; path = Classes/Model/Generated/Tags/FKFlickrTagsGetListUserPopular.h; sourceTree = "<group>"; };
+		3FB58523D3BC5B444722EF65BF3D59CF /* Pods-JodelChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JodelChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		40031BE2FA9921A7CC40E50729B942FD /* RealmSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RealmSwift-dummy.m"; sourceTree = "<group>"; };
 		401D130DA5FDC0AA1DC58E6D76570775 /* List.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = List.swift; path = RealmSwift/List.swift; sourceTree = "<group>"; };
 		40991F9C0DF8F7CEDE8C8A6B40C71EA8 /* RLMQueryUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMQueryUtil.mm; path = Realm/RLMQueryUtil.mm; sourceTree = "<group>"; };
@@ -1149,13 +1211,13 @@
 		42DDAF836E3EBA5580847B8F277185D0 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		43459F2C8BC1A97F15B818FBDB7AEEFD /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		43F78E02F439DEAB0402DE0D0EEE814D /* FKDUDiskCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKDUDiskCache.h; path = Classes/DevedUpKit/FKDUDiskCache.h; sourceTree = "<group>"; };
+		4439CCE5C1DEED3B414F4D23EC30270E /* Pods-JodelChallenge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JodelChallenge-umbrella.h"; sourceTree = "<group>"; };
 		446FE1CFCFF4E670A98A22705944D242 /* FKFlickrPhotosGetContactsPhotos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosGetContactsPhotos.m; path = Classes/Model/Generated/Photos/FKFlickrPhotosGetContactsPhotos.m; sourceTree = "<group>"; };
 		4478EEB35ABE3EC74B8F1ADA26F89F2C /* RLMSwiftSupport.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSwiftSupport.m; path = Realm/RLMSwiftSupport.m; sourceTree = "<group>"; };
 		4482DD76443AD4A6EBFEAF04E4A29072 /* FKFlickrGroupsBrowse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrGroupsBrowse.m; path = Classes/Model/Generated/Groups/FKFlickrGroupsBrowse.m; sourceTree = "<group>"; };
 		44DF81E7DF308FF2B361FA39B933872E /* FKFlickrPhotosRecentlyUpdated.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosRecentlyUpdated.m; path = Classes/Model/Generated/Photos/FKFlickrPhotosRecentlyUpdated.m; sourceTree = "<group>"; };
 		45570006DDD6AC431DBAE828E8F51079 /* FKFlickrBlogsGetList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrBlogsGetList.m; path = Classes/Model/Generated/Blogs/FKFlickrBlogsGetList.m; sourceTree = "<group>"; };
 		458845A6FF0B984C6DA89A2F4AE52661 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
-		459CB0F9A448EFE120E8624F8F3FADCA /* FlickrKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlickrKit.framework; path = FlickrKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45BBBC7B200EDF1DAA62517058FF32D7 /* FKFlickrGalleriesEditPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrGalleriesEditPhoto.m; path = Classes/Model/Generated/Galleries/FKFlickrGalleriesEditPhoto.m; sourceTree = "<group>"; };
 		4689E3C7707C5180C5EECFE0658E463B /* FKFlickrPlacesFindByLatLon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPlacesFindByLatLon.h; path = Classes/Model/Generated/Places/FKFlickrPlacesFindByLatLon.h; sourceTree = "<group>"; };
 		46C2EE3F075CB2ACED068D2705F4AB39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -1168,7 +1230,6 @@
 		47410F42C8392043DA297F0285457CD6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47A572D9714816DA942DE458900160AF /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
 		47B6166083352B9A3022673E7CF21CA3 /* FKFlickrPlacesGetPlaceTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPlacesGetPlaceTypes.m; path = Classes/Model/Generated/Places/FKFlickrPlacesGetPlaceTypes.m; sourceTree = "<group>"; };
-		48C1A6F6070C0DC8F803656F3B72DE58 /* Pods-JodelChallenge-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JodelChallenge-umbrella.h"; sourceTree = "<group>"; };
 		48D83483720C4B29EFAF5CD748F26619 /* FKFlickrTestLogin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrTestLogin.m; path = Classes/Model/Generated/Test/FKFlickrTestLogin.m; sourceTree = "<group>"; };
 		48EBF07A076160E4D3EC7B97DAADA7A1 /* FKFlickrCommonsGetInstitutions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrCommonsGetInstitutions.h; path = Classes/Model/Generated/Commons/FKFlickrCommonsGetInstitutions.h; sourceTree = "<group>"; };
 		48ECF442F6358C2891A5FBB4CC175C5A /* FKFlickrPhotosGetNotInSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosGetNotInSet.m; path = Classes/Model/Generated/Photos/FKFlickrPhotosGetNotInSet.m; sourceTree = "<group>"; };
@@ -1179,6 +1240,7 @@
 		4AE384ADBCF083EF45E2D6B5EC3409D7 /* FKFlickrGalleriesGetPhotos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrGalleriesGetPhotos.m; path = Classes/Model/Generated/Galleries/FKFlickrGalleriesGetPhotos.m; sourceTree = "<group>"; };
 		4AFBE055F316918CCF0E426F1264BB17 /* FKFlickrPrefsGetGeoPerms.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPrefsGetGeoPerms.m; path = Classes/Model/Generated/Prefs/FKFlickrPrefsGetGeoPerms.m; sourceTree = "<group>"; };
 		4B0EAD31AFAE83869541F1877BF17DEE /* FKFlickrContactsGetPublicList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrContactsGetPublicList.m; path = Classes/Model/Generated/Contacts/FKFlickrContactsGetPublicList.m; sourceTree = "<group>"; };
+		4B34393554B480367614A61A070B7335 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RealmSwift.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B45A44F8329CD17A64F02F4B64B466C /* FKDataTypes.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKDataTypes.m; path = Classes/FlickrKit/FKDataTypes.m; sourceTree = "<group>"; };
 		4B50CD0A3A6A1BC634125F21852E0FA6 /* FKFlickrAuthOauthCheckToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrAuthOauthCheckToken.m; path = Classes/Model/Generated/Auth/Oauth/FKFlickrAuthOauthCheckToken.m; sourceTree = "<group>"; };
 		4B784D323354783067DEA8B4DCA5093A /* FKURLBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKURLBuilder.h; path = Classes/Network/FKURLBuilder.h; sourceTree = "<group>"; };
@@ -1196,8 +1258,8 @@
 		4E5249DA51E34E111E49FA1A12B0FB29 /* FKFlickrPhotosetsReorderPhotos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosetsReorderPhotos.m; path = Classes/Model/Generated/Photosets/FKFlickrPhotosetsReorderPhotos.m; sourceTree = "<group>"; };
 		4E66C69D5DE4EE5036E196EA6891A621 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
 		4E89FBAB73A074CAA82CFCD405ED8B0C /* FKFlickrPeopleGetPublicGroups.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPeopleGetPublicGroups.m; path = Classes/Model/Generated/People/FKFlickrPeopleGetPublicGroups.m; sourceTree = "<group>"; };
-		4ECD86E31618CDF17E9029F020A24530 /* Hero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hero.framework; path = Hero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F2BC593DCA978D40F245DD2E2F4A26D /* RLMMigration_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMMigration_Private.h; path = include/RLMMigration_Private.h; sourceTree = "<group>"; };
+		4F79A46A9B3C7C5F1B1DE684D52A57A1 /* Pods-JodelChallenge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JodelChallenge-acknowledgements.plist"; sourceTree = "<group>"; };
 		4FE84885738BBD0CD2437DB536CD99CF /* FKFlickrPhotosPeopleDelete.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosPeopleDelete.h; path = Classes/Model/Generated/Photos/People/FKFlickrPhotosPeopleDelete.h; sourceTree = "<group>"; };
 		5012B52EF54C355DD8F1A471864950C1 /* FKFlickrPeopleGetInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPeopleGetInfo.m; path = Classes/Model/Generated/People/FKFlickrPeopleGetInfo.m; sourceTree = "<group>"; };
 		5015DC4F2BBA383EF3A62DFC88F5189D /* FKFlickrMachinetagsGetPairs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrMachinetagsGetPairs.h; path = Classes/Model/Generated/Machinetags/FKFlickrMachinetagsGetPairs.h; sourceTree = "<group>"; };
@@ -1219,6 +1281,7 @@
 		56368B5F0027594412CB559BE1CB90DC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		565FA045E6DC876537F97A1532605D93 /* RLMRealmConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMRealmConfiguration.h; path = include/RLMRealmConfiguration.h; sourceTree = "<group>"; };
 		5682DD9CD62C0430679E0CA960417CF5 /* FKFlickrBlogsGetServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrBlogsGetServices.h; path = Classes/Model/Generated/Blogs/FKFlickrBlogsGetServices.h; sourceTree = "<group>"; };
+		56A7F249045B6346540C3E6377A99C2C /* Pods-JodelChallengeTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JodelChallengeTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		573C57EFCAABECAB5F0357CA1E6C9720 /* FKFlickrPhotosGetInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosGetInfo.h; path = Classes/Model/Generated/Photos/FKFlickrPhotosGetInfo.h; sourceTree = "<group>"; };
 		57533749840DA87C4F1CAEB515BC7A16 /* FKFlickrPhotosSuggestionsGetList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosSuggestionsGetList.m; path = Classes/Model/Generated/Photos/Suggestions/FKFlickrPhotosSuggestionsGetList.m; sourceTree = "<group>"; };
 		57A172E0FA3A29A8EBA205371E7312CD /* FKFlickrPhotosSuggestionsApproveSuggestion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosSuggestionsApproveSuggestion.m; path = Classes/Model/Generated/Photos/Suggestions/FKFlickrPhotosSuggestionsApproveSuggestion.m; sourceTree = "<group>"; };
@@ -1238,6 +1301,7 @@
 		5A6858370A0B52D9B65CAE1B0DCB86E1 /* FKFlickrPhotosSetTags.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosSetTags.m; path = Classes/Model/Generated/Photos/FKFlickrPhotosSetTags.m; sourceTree = "<group>"; };
 		5AB1A19784F89C81BB468D18CB3353D4 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Alamofire.modulemap; sourceTree = "<group>"; };
 		5AF4BEB11F1CAA7FE3CBB9D98C4FF615 /* RLMObjectBase_Dynamic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectBase_Dynamic.h; path = include/RLMObjectBase_Dynamic.h; sourceTree = "<group>"; };
+		5BB218168457BC82BBD94C48EEA8BD0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BDD982517C364C7D67A2BB279B652E8 /* FKFlickrUrlsLookupUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrUrlsLookupUser.h; path = Classes/Model/Generated/Urls/FKFlickrUrlsLookupUser.h; sourceTree = "<group>"; };
 		5C19F2D4037EC7F5A9B1F41805BEC809 /* FKFlickrContactsGetTaggingSuggestions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrContactsGetTaggingSuggestions.m; path = Classes/Model/Generated/Contacts/FKFlickrContactsGetTaggingSuggestions.m; sourceTree = "<group>"; };
 		5CCC194AA908D9BE4A920336367ECE5B /* FKFlickrPhotosSetSafetyLevel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosSetSafetyLevel.m; path = Classes/Model/Generated/Photos/FKFlickrPhotosSetSafetyLevel.m; sourceTree = "<group>"; };
@@ -1245,7 +1309,6 @@
 		5D4B8BB92B283EA1AC72C8093C3EE41D /* FKFlickrGroupsPoolsGetContext.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrGroupsPoolsGetContext.m; path = Classes/Model/Generated/Groups/Pools/FKFlickrGroupsPoolsGetContext.m; sourceTree = "<group>"; };
 		5D50BB459C8DFDAD0AD4D4DE96973E2B /* FKFlickrGroupsPoolsGetContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrGroupsPoolsGetContext.h; path = Classes/Model/Generated/Groups/Pools/FKFlickrGroupsPoolsGetContext.h; sourceTree = "<group>"; };
 		5DB74332F1604CDAD93F33FB6E7EEBF6 /* FKFlickrPhotosetsGetContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosetsGetContext.h; path = Classes/Model/Generated/Photosets/FKFlickrPhotosetsGetContext.h; sourceTree = "<group>"; };
-		5DDC3E8B51556AA3139A7B277310A7CD /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1E689DD23DCF48C29A811249B6DCFE /* FKFlickrGroupsDiscussTopicsGetInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrGroupsDiscussTopicsGetInfo.h; path = Classes/Model/Generated/Groups/Discuss/Topics/FKFlickrGroupsDiscussTopicsGetInfo.h; sourceTree = "<group>"; };
 		5E27E8ED5DC51E050C917F6F0A9541A6 /* RLMSyncConfiguration_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncConfiguration_Private.h; path = include/RLMSyncConfiguration_Private.h; sourceTree = "<group>"; };
 		5EDCD3E108E6AF5E08731FFD2F72793D /* FKFlickrPhotosGeoRemoveLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosGeoRemoveLocation.h; path = Classes/Model/Generated/Photos/Geo/FKFlickrPhotosGeoRemoveLocation.h; sourceTree = "<group>"; };
@@ -1257,6 +1320,7 @@
 		606240EFE922FDCFDC5A276F361F5920 /* FKFlickrPhotosLicensesGetInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosLicensesGetInfo.h; path = Classes/Model/Generated/Photos/Licenses/FKFlickrPhotosLicensesGetInfo.h; sourceTree = "<group>"; };
 		6080AA01AC2A5B3BBAE29690C0EA6CF0 /* FKFlickrGroupsDiscussRepliesGetInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrGroupsDiscussRepliesGetInfo.m; path = Classes/Model/Generated/Groups/Discuss/Replies/FKFlickrGroupsDiscussRepliesGetInfo.m; sourceTree = "<group>"; };
 		60B58913AFD2D154F08658BFA8AE18E2 /* FKFlickrPhotosSuggestionsSuggestLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosSuggestionsSuggestLocation.m; path = Classes/Model/Generated/Photos/Suggestions/FKFlickrPhotosSuggestionsSuggestLocation.m; sourceTree = "<group>"; };
+		60D09A1EFF6944086D00DA47687FCF2A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61F7334217DA07E6C7392AE6A8DCB628 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		627DA5426E74B9E6393688A0A12A9E7D /* RLMSyncUtil_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncUtil_Private.h; path = include/RLMSyncUtil_Private.h; sourceTree = "<group>"; };
 		628871AF2188CE87DDF7A958AA72B2E9 /* Realm.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Realm.xcconfig; sourceTree = "<group>"; };
@@ -1280,12 +1344,14 @@
 		6A712604C493F1B78A65D6BC329CA14C /* FKFlickrAuthGetFullToken.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrAuthGetFullToken.m; path = Classes/Model/Generated/Auth/FKFlickrAuthGetFullToken.m; sourceTree = "<group>"; };
 		6AD03078555ED44B95B0992FE05C7E70 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		6B1FF0E519901AD834B3E71277C14887 /* FKUtilities.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKUtilities.m; path = Classes/Utilities/FKUtilities.m; sourceTree = "<group>"; };
+		6B355C3C2CACAD98B067E2A3D482DB36 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AFNetworking.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BA9D03A359B11F614FF57762086425C /* FKFlickrPrefsGetGeoPerms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPrefsGetGeoPerms.h; path = Classes/Model/Generated/Prefs/FKFlickrPrefsGetGeoPerms.h; sourceTree = "<group>"; };
 		6BAB907CAA92F5C19FBA649FB7D85CB7 /* FKFlickrPhotosNotesAdd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosNotesAdd.h; path = Classes/Model/Generated/Photos/Notes/FKFlickrPhotosNotesAdd.h; sourceTree = "<group>"; };
 		6BD490F616DC75E9DA8C5FDB73740E2A /* Hero-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hero-prefix.pch"; sourceTree = "<group>"; };
 		6CD99050F9C8EB4DA17B289FD3E376BD /* FKFlickrPlacesFind.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPlacesFind.m; path = Classes/Model/Generated/Places/FKFlickrPlacesFind.m; sourceTree = "<group>"; };
 		6D167132DB2AC876296A7D43FE4F79AE /* FKFlickrGalleriesGetPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrGalleriesGetPhotos.h; path = Classes/Model/Generated/Galleries/FKFlickrGalleriesGetPhotos.h; sourceTree = "<group>"; };
 		6D2500360485065BF71BF060EC99871F /* FKImageUploadNetworkOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKImageUploadNetworkOperation.m; path = Classes/Network/FKImageUploadNetworkOperation.m; sourceTree = "<group>"; };
+		6D590A0AE668C4C896315AAC54697AD6 /* Pods-JodelChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JodelChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		6E1A3D1B47DE217EF71A59CFCDFABB32 /* index_set.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = index_set.cpp; path = Realm/ObjectStore/src/index_set.cpp; sourceTree = "<group>"; };
 		6E4AB7E8D976069D64D11053408DBC9B /* FKFlickrTagsGetClusterPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrTagsGetClusterPhotos.h; path = Classes/Model/Generated/Tags/FKFlickrTagsGetClusterPhotos.h; sourceTree = "<group>"; };
 		6ECA8005BB912D8B3F80EDE14D9EAF71 /* FKFlickrPhotosGetWithGeoData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosGetWithGeoData.m; path = Classes/Model/Generated/Photos/FKFlickrPhotosGetWithGeoData.m; sourceTree = "<group>"; };
@@ -1314,9 +1380,9 @@
 		74D05A2F6782B431E47D66B0F4265A57 /* FKFlickrPhotosPeopleGetList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosPeopleGetList.h; path = Classes/Model/Generated/Photos/People/FKFlickrPhotosPeopleGetList.h; sourceTree = "<group>"; };
 		74EBC985222648BF56F996CDB6AEDCA1 /* FKFlickrUrlsLookupUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrUrlsLookupUser.m; path = Classes/Model/Generated/Urls/FKFlickrUrlsLookupUser.m; sourceTree = "<group>"; };
 		751BBDE0157652531A35D906977E66DD /* Parser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Parser.swift; path = Sources/Parser/Parser.swift; sourceTree = "<group>"; };
-		751CC23DB55A9536048555E0CBD49886 /* Pods-JodelChallenge-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JodelChallenge-acknowledgements.plist"; sourceTree = "<group>"; };
 		75B9A841120E5F78FE327EF3B0DE15F5 /* FKFlickrStatsGetPhotostreamDomains.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrStatsGetPhotostreamDomains.m; path = Classes/Model/Generated/Stats/FKFlickrStatsGetPhotostreamDomains.m; sourceTree = "<group>"; };
 		75C74D4959C5EA1D38AAEF7DE8C51681 /* FKFlickrPeopleFindByEmail.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPeopleFindByEmail.h; path = Classes/Model/Generated/People/FKFlickrPeopleFindByEmail.h; sourceTree = "<group>"; };
+		764A86C4B588C5221A73AE7BCF50D991 /* Pods-JodelChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JodelChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
 		770ACE417BFF96C07161CA95696B64C4 /* FKFlickrPhotosetsGetInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosetsGetInfo.m; path = Classes/Model/Generated/Photosets/FKFlickrPhotosetsGetInfo.m; sourceTree = "<group>"; };
 		7765E20078CBA543C8339CCB2B91B584 /* FKFlickrTagsGetListPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrTagsGetListPhoto.h; path = Classes/Model/Generated/Tags/FKFlickrTagsGetListPhoto.h; sourceTree = "<group>"; };
 		77F7599761031F8880D826B3A8215980 /* RLMUpdateChecker.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMUpdateChecker.mm; path = Realm/RLMUpdateChecker.mm; sourceTree = "<group>"; };
@@ -1358,7 +1424,6 @@
 		82DF83C235F9EF1480F32B1D82AB9930 /* FKFlickrPushUnsubscribe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPushUnsubscribe.m; path = Classes/Model/Generated/Push/FKFlickrPushUnsubscribe.m; sourceTree = "<group>"; };
 		82FE702CC03911BFA4AE571FD09409AE /* FKFlickrPhotosNotesAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosNotesAdd.m; path = Classes/Model/Generated/Photos/Notes/FKFlickrPhotosNotesAdd.m; sourceTree = "<group>"; };
 		82FFF839ECD3D4D489B41045AF89E6FE /* FKFlickrPhotosGetAllContexts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosGetAllContexts.h; path = Classes/Model/Generated/Photos/FKFlickrPhotosGetAllContexts.h; sourceTree = "<group>"; };
-		83E95D7AC923E53C0591531BB1EC0E62 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84450B718234250208882A8E676CD2DE /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		8477F488C4AAF77AA23237F6C34F1935 /* RLMArray_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMArray_Private.h; path = include/RLMArray_Private.h; sourceTree = "<group>"; };
 		84BE4CF961C5ED8B47BE2CCE0E458156 /* FKFlickrPhotosLicensesSetLicense.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosLicensesSetLicense.m; path = Classes/Model/Generated/Photos/Licenses/FKFlickrPhotosLicensesSetLicense.m; sourceTree = "<group>"; };
@@ -1368,10 +1433,13 @@
 		8554794341B2348A5336A48818B676A3 /* FKFlickrPrefsGetHidden.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPrefsGetHidden.h; path = Classes/Model/Generated/Prefs/FKFlickrPrefsGetHidden.h; sourceTree = "<group>"; };
 		86175DF54A75472BD08D2B75089795B0 /* weak_realm_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = weak_realm_notifier.cpp; path = Realm/ObjectStore/src/impl/weak_realm_notifier.cpp; sourceTree = "<group>"; };
 		86C82C77078F96BC7F0649CF6CBFEB87 /* UIKit+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIKit+Hero.swift"; path = "Sources/Extensions/UIKit+Hero.swift"; sourceTree = "<group>"; };
+		882E254AC9055AAD1579DCAAB027A588 /* Pods-JodelChallenge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JodelChallenge-dummy.m"; sourceTree = "<group>"; };
+		883DD4D0E223A74D810ED109E51E9B58 /* SVProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD.framework; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		887DE91A8249A86A9B365F8723E1308B /* FKFlickrAuthCheckToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrAuthCheckToken.h; path = Classes/Model/Generated/Auth/FKFlickrAuthCheckToken.h; sourceTree = "<group>"; };
 		8899470654F8749861153652D55151CA /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
 		88B84C384201F14D45816A18F29EAD8A /* FKFlickrGalleriesGetList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrGalleriesGetList.h; path = Classes/Model/Generated/Galleries/FKFlickrGalleriesGetList.h; sourceTree = "<group>"; };
 		88DDA86717C7AE0444286216819EBF21 /* RLMObjectStore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMObjectStore.h; path = include/RLMObjectStore.h; sourceTree = "<group>"; };
+		88FF621B532B984BB6590E2770A4EE9E /* Pods-JodelChallenge.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JodelChallenge.modulemap"; sourceTree = "<group>"; };
 		891F77E260B2756AFEDC90D20BA614FA /* RLMSchema_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSchema_Private.h; path = include/RLMSchema_Private.h; sourceTree = "<group>"; };
 		8942903CC4052D1129752F6E851B110D /* FKFlickrPhotosGeoSetLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosGeoSetLocation.m; path = Classes/Model/Generated/Photos/Geo/FKFlickrPhotosGeoSetLocation.m; sourceTree = "<group>"; };
 		89790B2D1101D17F9C3A881A7134B2DD /* FKFlickrPhotosGetCounts.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosGetCounts.h; path = Classes/Model/Generated/Photos/FKFlickrPhotosGetCounts.h; sourceTree = "<group>"; };
@@ -1399,7 +1467,6 @@
 		91269C75288E70680285CC6C4B477EDE /* RLMSyncPermission.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncPermission.mm; path = Realm/RLMSyncPermission.mm; sourceTree = "<group>"; };
 		914C1BD5E614B78887B476B5B261AFBC /* FKFlickrPhotosetsEditMeta.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosetsEditMeta.m; path = Classes/Model/Generated/Photosets/FKFlickrPhotosetsEditMeta.m; sourceTree = "<group>"; };
 		9184166AAD3CC8276FA7AEE741B3C071 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		91F25F4B5CC6ADE66E96A983DA71A865 /* Pods-JodelChallenge-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JodelChallenge-dummy.m"; sourceTree = "<group>"; };
 		92A6ED535E40195AB1C3F07A5B6DE8E5 /* FKFlickrPeopleFindByUsername.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPeopleFindByUsername.h; path = Classes/Model/Generated/People/FKFlickrPeopleFindByUsername.h; sourceTree = "<group>"; };
 		92C32ADEB7DA2B61D604D3D2FD3F8A78 /* BasePreprocessor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasePreprocessor.swift; path = Sources/Preprocessors/BasePreprocessor.swift; sourceTree = "<group>"; };
 		92FD5AC98DDC183BE5D99EBE631D8909 /* Realm.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Realm.h; path = include/Realm.h; sourceTree = "<group>"; };
@@ -1445,9 +1512,9 @@
 		9F1B35E4EEA03FFE41387DA9B10C3013 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
 		9F44E60A74EE45A36FF699F231818A1A /* FKFlickrPeopleGetGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPeopleGetGroups.h; path = Classes/Model/Generated/People/FKFlickrPeopleGetGroups.h; sourceTree = "<group>"; };
 		9F4D6B25A6381B7E9733ED987CAD3CEE /* FKFlickrPhotosetsDelete.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosetsDelete.h; path = Classes/Model/Generated/Photosets/FKFlickrPhotosetsDelete.h; sourceTree = "<group>"; };
+		9FF5506FC80E33575310BE183BE7FE59 /* FlickrKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FlickrKit.framework; path = FlickrKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03A0965B1D6E085B0D40A78F48EBAC3 /* FKFlickrStatsGetPhotoDomains.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrStatsGetPhotoDomains.h; path = Classes/Model/Generated/Stats/FKFlickrStatsGetPhotoDomains.h; sourceTree = "<group>"; };
 		A0688C893CE3F9EEF3AC803570BC8B3E /* FKFlickrStatsGetCollectionDomains.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrStatsGetCollectionDomains.m; path = Classes/Model/Generated/Stats/FKFlickrStatsGetCollectionDomains.m; sourceTree = "<group>"; };
-		A089764071BC7481ED61F24040A97409 /* Pods-JodelChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JodelChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		A0995462C4CB6DFF91C5C5AB1D22F8F6 /* FKFlickrPhotosGetFavorites.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosGetFavorites.m; path = Classes/Model/Generated/Photos/FKFlickrPhotosGetFavorites.m; sourceTree = "<group>"; };
 		A0DC34366CC7B41B9F7501B9F9042650 /* FKFlickrFavoritesGetPublicList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrFavoritesGetPublicList.m; path = Classes/Model/Generated/Favorites/FKFlickrFavoritesGetPublicList.m; sourceTree = "<group>"; };
 		A0ECF44928FA0A2B28E2AF6492C43DB0 /* collection_notifications.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = collection_notifications.cpp; path = Realm/ObjectStore/src/collection_notifications.cpp; sourceTree = "<group>"; };
@@ -1485,8 +1552,10 @@
 		AC951B8ADB5C2258A2C91685B96D9D08 /* FKFlickrGroupsDiscussRepliesGetList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrGroupsDiscussRepliesGetList.h; path = Classes/Model/Generated/Groups/Discuss/Replies/FKFlickrGroupsDiscussRepliesGetList.h; sourceTree = "<group>"; };
 		AC9A672AFAE7EDEAB037FB061B8154E4 /* FKFlickrPandaGetPhotos.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPandaGetPhotos.m; path = Classes/Model/Generated/Panda/FKFlickrPandaGetPhotos.m; sourceTree = "<group>"; };
 		ACB35EEC137CF6B5D37D01B5575C04A6 /* FKFlickrStatsGetTotalViews.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrStatsGetTotalViews.m; path = Classes/Model/Generated/Stats/FKFlickrStatsGetTotalViews.m; sourceTree = "<group>"; };
+		ACC326DF24D2CBB4A4692D99B633E7CF /* Pods-JodelChallenge-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JodelChallenge-resources.sh"; sourceTree = "<group>"; };
 		AD6AD98938A06B42CE3CA777FC406B90 /* RLMSyncManager_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RLMSyncManager_Private.h; path = include/RLMSyncManager_Private.h; sourceTree = "<group>"; };
 		AD8F6C5875B884FC2791E558ECD6899B /* HeroTransition+CustomTransition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+CustomTransition.swift"; path = "Sources/Transition/HeroTransition+CustomTransition.swift"; sourceTree = "<group>"; };
+		AD92DB6C355E3B747F8C4C234D6C350D /* Hero.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hero.framework; path = Hero.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD9A029B7DDA64CF8010BDDA9457B1C8 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
 		ADAF369723AACC8F997A4D1650EB9BAB /* FKFlickrPhotosSetTags.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosSetTags.h; path = Classes/Model/Generated/Photos/FKFlickrPhotosSetTags.h; sourceTree = "<group>"; };
 		AE79244BABE805DFEDE092C326FC6C4C /* FKFlickrPrefsGetContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPrefsGetContentType.m; path = Classes/Model/Generated/Prefs/FKFlickrPrefsGetContentType.m; sourceTree = "<group>"; };
@@ -1494,12 +1563,14 @@
 		AFB4C12FDF6272F5F55D20A1BE84627E /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
 		B1280E418ACA41EA96BD6C6F4381309B /* HeroTransition+UITabBarControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroTransition+UITabBarControllerDelegate.swift"; path = "Sources/Transition/HeroTransition+UITabBarControllerDelegate.swift"; sourceTree = "<group>"; };
 		B14E78E59132CA76A8E0A68385954FBB /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		B17DB1CFA850C1F53716FAF408808E1C /* Pods-JodelChallengeTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JodelChallengeTests.modulemap"; sourceTree = "<group>"; };
 		B17EEEAEFDF685F2F77C96CDFE9D6A36 /* RLMClassInfo.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMClassInfo.mm; path = Realm/RLMClassInfo.mm; sourceTree = "<group>"; };
 		B1E54259B73BD439257C642445B4AD59 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		B1F48BB2C91B8059CA4146C6FC28BBDC /* FKUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKUtilities.h; path = Classes/Utilities/FKUtilities.h; sourceTree = "<group>"; };
 		B22ACDE38E24AEC5245012A623608C10 /* FKFlickrPhotosGetWithoutGeoData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosGetWithoutGeoData.m; path = Classes/Model/Generated/Photos/FKFlickrPhotosGetWithoutGeoData.m; sourceTree = "<group>"; };
 		B2826AAB8327913F35207F9835B6F259 /* HeroModifier+HeroStringConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "HeroModifier+HeroStringConvertible.swift"; path = "Sources/HeroModifier+HeroStringConvertible.swift"; sourceTree = "<group>"; };
 		B2998E572E0B5950DEF121BD6491A216 /* FKFlickrPhotosAddTags.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosAddTags.h; path = Classes/Model/Generated/Photos/FKFlickrPhotosAddTags.h; sourceTree = "<group>"; };
+		B380E6EC85B5B90C95553B088A800DDF /* Pods-JodelChallenge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JodelChallenge-frameworks.sh"; sourceTree = "<group>"; };
 		B3A828F0F3337225017A4114080D3E86 /* FKFlickrGalleriesEditPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrGalleriesEditPhoto.h; path = Classes/Model/Generated/Galleries/FKFlickrGalleriesEditPhoto.h; sourceTree = "<group>"; };
 		B3F865609FF96D63E7F795A6C1F82735 /* FKFlickrGroupsDiscussRepliesGetList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrGroupsDiscussRepliesGetList.m; path = Classes/Model/Generated/Groups/Discuss/Replies/FKFlickrGroupsDiscussRepliesGetList.m; sourceTree = "<group>"; };
 		B4627EA6FAE933702CBE2D9B59B1C87C /* FKFlickrPhotosCommentsDeleteComment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosCommentsDeleteComment.m; path = Classes/Model/Generated/Photos/Comments/FKFlickrPhotosCommentsDeleteComment.m; sourceTree = "<group>"; };
@@ -1515,6 +1586,7 @@
 		B737AA816E9A3ED060A89C1EC346EDC0 /* FKFlickrPlacesGetPlaceTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPlacesGetPlaceTypes.h; path = Classes/Model/Generated/Places/FKFlickrPlacesGetPlaceTypes.h; sourceTree = "<group>"; };
 		B74BC9C7805BF5AF37AEBBB07D5EB904 /* FKFlickrPrefsGetPrivacy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPrefsGetPrivacy.m; path = Classes/Model/Generated/Prefs/FKFlickrPrefsGetPrivacy.m; sourceTree = "<group>"; };
 		B7594246FD730ADE4278648A90B06028 /* FKFlickrNetworkOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrNetworkOperation.h; path = Classes/Network/FKFlickrNetworkOperation.h; sourceTree = "<group>"; };
+		B7CED03B00ED9F52A5D3BF1A31A64323 /* Pods-JodelChallengeTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JodelChallengeTests-frameworks.sh"; sourceTree = "<group>"; };
 		B83A5D1FA66622954D195C60EF8D7FB2 /* FKFlickrPeopleGetPublicGroups.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPeopleGetPublicGroups.h; path = Classes/Model/Generated/People/FKFlickrPeopleGetPublicGroups.h; sourceTree = "<group>"; };
 		B84E902F07D10F44D6B9973EAC21BADA /* HeroDebugPlugin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeroDebugPlugin.swift; path = "Sources/Debug Plugin/HeroDebugPlugin.swift"; sourceTree = "<group>"; };
 		B8D8D797A0966EB3942C90357317DA66 /* FKFlickrTestLogin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrTestLogin.h; path = Classes/Model/Generated/Test/FKFlickrTestLogin.h; sourceTree = "<group>"; };
@@ -1589,7 +1661,6 @@
 		CFB1F1F693F9A7EE6383895BA72A465D /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
 		CFD835E36614AE4D20BB860AF8768CFB /* FKFlickrTagsGetRelated.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrTagsGetRelated.h; path = Classes/Model/Generated/Tags/FKFlickrTagsGetRelated.h; sourceTree = "<group>"; };
 		CFF7B522F3A39FCD69C421EF2781A9D7 /* FKFlickrPhotosPeopleAdd.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosPeopleAdd.m; path = Classes/Model/Generated/Photos/People/FKFlickrPhotosPeopleAdd.m; sourceTree = "<group>"; };
-		D0E83216D8213E8AEE7EE20955EEF14F /* AlamofireImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlamofireImage.framework; path = AlamofireImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1539B2F250B559745E6578C0D488599 /* FKFlickrReflectionGetMethodInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrReflectionGetMethodInfo.m; path = Classes/Model/Generated/Reflection/FKFlickrReflectionGetMethodInfo.m; sourceTree = "<group>"; };
 		D181704080A79A0E1171B960DEE3362B /* FKFlickrPhotosGeoBatchCorrectLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosGeoBatchCorrectLocation.h; path = Classes/Model/Generated/Photos/Geo/FKFlickrPhotosGeoBatchCorrectLocation.h; sourceTree = "<group>"; };
 		D19E66CC7068C386FD9CCBD418FC40BA /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
@@ -1598,6 +1669,7 @@
 		D24B7E7CBF4C14EE59BCA767FD0B99B4 /* RLMSyncCredentials.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RLMSyncCredentials.m; path = Realm/RLMSyncCredentials.m; sourceTree = "<group>"; };
 		D251D85B7521DDED65D836A2AC016882 /* Lexer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Lexer.swift; path = Sources/Parser/Lexer.swift; sourceTree = "<group>"; };
 		D26E3BE0741DB12AA592C6FD9F2625C4 /* FKFlickrGroupsDiscussRepliesEdit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrGroupsDiscussRepliesEdit.h; path = Classes/Model/Generated/Groups/Discuss/Replies/FKFlickrGroupsDiscussRepliesEdit.h; sourceTree = "<group>"; };
+		D29996B64A3A2C8483F7B700F7DE8F4C /* Pods_JodelChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JodelChallengeTests.framework; path = "Pods-JodelChallengeTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2EBD88C775BF54B6ABA5B4EC7984328 /* NSError+RLMSync.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSError+RLMSync.h"; path = "include/NSError+RLMSync.h"; sourceTree = "<group>"; };
 		D3008C5AF6FA75A33B89897DE157CE29 /* FKFlickrAuthOauthCheckToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrAuthOauthCheckToken.h; path = Classes/Model/Generated/Auth/Oauth/FKFlickrAuthOauthCheckToken.h; sourceTree = "<group>"; };
 		D33F88AEF9489B5FBFEF3D188ECEBA05 /* FKFlickrReflectionGetMethodInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrReflectionGetMethodInfo.h; path = Classes/Model/Generated/Reflection/FKFlickrReflectionGetMethodInfo.h; sourceTree = "<group>"; };
@@ -1608,7 +1680,6 @@
 		D47437ED6734DEC24CF3D16E6D8CDE88 /* CALayer+Hero.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CALayer+Hero.swift"; path = "Sources/Extensions/CALayer+Hero.swift"; sourceTree = "<group>"; };
 		D49BA5AE5646C39C012D73F8B5684F40 /* FKFlickrPeopleGetUploadStatus.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPeopleGetUploadStatus.m; path = Classes/Model/Generated/People/FKFlickrPeopleGetUploadStatus.m; sourceTree = "<group>"; };
 		D4F49408FF5F91A79E782A2130A7C99A /* FKFlickrStatsGetPhotostreamStats.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrStatsGetPhotostreamStats.h; path = Classes/Model/Generated/Stats/FKFlickrStatsGetPhotostreamStats.h; sourceTree = "<group>"; };
-		D51681FA343D3132603E67CBB75D7B21 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D53A5E669ACB6A55F1F88E2D00C943A6 /* ObjectSchema.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectSchema.swift; path = RealmSwift/ObjectSchema.swift; sourceTree = "<group>"; };
 		D57187B4F9C3AB5D42B22308CC77AB09 /* AFIError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFIError.swift; path = Source/AFIError.swift; sourceTree = "<group>"; };
 		D5DFAB2235D1CCA53D78BC57207F741E /* RLMSyncSession.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncSession.mm; path = Realm/RLMSyncSession.mm; sourceTree = "<group>"; };
@@ -1617,14 +1688,13 @@
 		D6EE892D66858CBEB32C4C00203ED664 /* FKFlickrPlacesGetShapeHistory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPlacesGetShapeHistory.m; path = Classes/Model/Generated/Places/FKFlickrPlacesGetShapeHistory.m; sourceTree = "<group>"; };
 		D6FC8E0F59FC54C5EF14706DFB999C93 /* TaskDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskDelegate.swift; path = Source/TaskDelegate.swift; sourceTree = "<group>"; };
 		D7286779516102CEBDC861D596C751CA /* FKFlickrPhotosGetContactsPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPhotosGetContactsPhotos.h; path = Classes/Model/Generated/Photos/FKFlickrPhotosGetContactsPhotos.h; sourceTree = "<group>"; };
-		D72E48EED4E402EC00E87FA57552F022 /* Pods-JodelChallenge-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JodelChallenge-frameworks.sh"; sourceTree = "<group>"; };
+		D77D88BB7EACAC21FF15C16B16334F83 /* Pods-JodelChallengeTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JodelChallengeTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D7C39227F2CAA6DBAB491676261E794C /* FKFlickrPhotosetsDelete.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosetsDelete.m; path = Classes/Model/Generated/Photosets/FKFlickrPhotosetsDelete.m; sourceTree = "<group>"; };
 		D88643C20B87C9FFCAC80BC3142F5468 /* Property.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Property.swift; path = RealmSwift/Property.swift; sourceTree = "<group>"; };
 		D930505DC254285A0B887890FA430F65 /* FKFlickrBlogsPostPhoto.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrBlogsPostPhoto.m; path = Classes/Model/Generated/Blogs/FKFlickrBlogsPostPhoto.m; sourceTree = "<group>"; };
 		D94E8F49D07E9CEA43C49C4FD38133EE /* FKFlickrPushGetSubscriptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPushGetSubscriptions.m; path = Classes/Model/Generated/Push/FKFlickrPushGetSubscriptions.m; sourceTree = "<group>"; };
 		D9EAD34D3E29AB3CC2313463C9CA3B85 /* FKFlickrPhotosAddTags.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosAddTags.m; path = Classes/Model/Generated/Photos/FKFlickrPhotosAddTags.m; sourceTree = "<group>"; };
 		DA078EEFFD32C0CB1E0BE980E7E5CBFB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DA4A7E544BD72DD3041138EEE4D75D66 /* RealmSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RealmSwift.framework; path = RealmSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA4A8C60205DB35E64E811C5A1D6BD99 /* FKFlickrGroupsSearch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrGroupsSearch.m; path = Classes/Model/Generated/Groups/FKFlickrGroupsSearch.m; sourceTree = "<group>"; };
 		DB2C5CD813C6CE3981CCAF1096AFA7E3 /* FKFlickrBlogsGetList.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrBlogsGetList.h; path = Classes/Model/Generated/Blogs/FKFlickrBlogsGetList.h; sourceTree = "<group>"; };
 		DBA65344B8B5C81CFD1C0F0FB4A52DA3 /* FKDUBlocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKDUBlocks.m; path = Classes/DevedUpKit/FKDUBlocks.m; sourceTree = "<group>"; };
@@ -1655,7 +1725,6 @@
 		E4CB9CC0525072B691E7158739DF72E6 /* FKDataTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKDataTypes.h; path = Classes/FlickrKit/FKDataTypes.h; sourceTree = "<group>"; };
 		E50697485D0742EA0D78846A01A90469 /* UIImageView+AlamofireImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIImageView+AlamofireImage.swift"; path = "Source/UIImageView+AlamofireImage.swift"; sourceTree = "<group>"; };
 		E545F276E7119654EF957A3A20CE5E53 /* RLMRealmUtil.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMRealmUtil.mm; path = Realm/RLMRealmUtil.mm; sourceTree = "<group>"; };
-		E6962FE941E96A7EB9AA4E6BC57ED939 /* Pods_JodelChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JodelChallenge.framework; path = "Pods-JodelChallenge.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7B67F9E00F6A068C90B4E9B17F777CF /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = Source/Timeline.swift; sourceTree = "<group>"; };
 		E7F2E0D0E83EEACFB8C84AE9217D22A5 /* FKFlickrPeopleGetLimits.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPeopleGetLimits.m; path = Classes/Model/Generated/People/FKFlickrPeopleGetLimits.m; sourceTree = "<group>"; };
 		E8A1EC779106A05ED3689C2B9E15AFAA /* FKFlickrAuthGetToken.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrAuthGetToken.h; path = Classes/Model/Generated/Auth/FKFlickrAuthGetToken.h; sourceTree = "<group>"; };
@@ -1667,6 +1736,7 @@
 		EBC9A598C65E5E924EAA4A6409D20238 /* FKFlickrGalleriesGetInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrGalleriesGetInfo.h; path = Classes/Model/Generated/Galleries/FKFlickrGalleriesGetInfo.h; sourceTree = "<group>"; };
 		EBE39A2E63F917228DC9A6864D34E6F2 /* FKFlickrGalleriesGetListForPhoto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrGalleriesGetListForPhoto.h; path = Classes/Model/Generated/Galleries/FKFlickrGalleriesGetListForPhoto.h; sourceTree = "<group>"; };
 		ECF006B6509B04E35188634E6635CD32 /* FKFlickrPhotosCommentsAddComment.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosCommentsAddComment.m; path = Classes/Model/Generated/Photos/Comments/FKFlickrPhotosCommentsAddComment.m; sourceTree = "<group>"; };
+		ED11E1D4626CD9A947FA685D18E43B3D /* Pods-JodelChallengeTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JodelChallengeTests-resources.sh"; sourceTree = "<group>"; };
 		ED3369DB5E9DF9EC9AC82F92390856A2 /* ObjectiveCSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ObjectiveCSupport.swift; path = RealmSwift/ObjectiveCSupport.swift; sourceTree = "<group>"; };
 		ED57BDD9BD3A3BA1DDE7C8532B011236 /* FKFlickrPhotosetsGetList.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosetsGetList.m; path = Classes/Model/Generated/Photosets/FKFlickrPhotosetsGetList.m; sourceTree = "<group>"; };
 		EDE337C140883CCB18DF1E98C9E99996 /* placeholder.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = placeholder.cpp; path = Realm/ObjectStore/src/placeholder.cpp; sourceTree = "<group>"; };
@@ -1687,15 +1757,15 @@
 		F4C1AAA667A25C977E662EB873F60645 /* Sync.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Sync.swift; path = RealmSwift/Sync.swift; sourceTree = "<group>"; };
 		F570F46FBD5DF0BA1910C26E8143E051 /* FKFlickrPhotosGetRecent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrPhotosGetRecent.m; path = Classes/Model/Generated/Photos/FKFlickrPhotosGetRecent.m; sourceTree = "<group>"; };
 		F5D73707152D837C97B47DA6944F40AF /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		F5EBFC3EF6CEAFA7676C54CB8CE79E65 /* Pods-JodelChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JodelChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		F6CD5D30BB81B7CD3BC359AAC9C7458E /* RLMSyncPermissionResults.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = RLMSyncPermissionResults.mm; path = Realm/RLMSyncPermissionResults.mm; sourceTree = "<group>"; };
 		F741F773EAED6240848C3714F316A599 /* RealmSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RealmSwift.modulemap; sourceTree = "<group>"; };
 		F7DAB5BCAC5818609056CF15BB58EE42 /* FKFlickrPandaGetPhotos.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPandaGetPhotos.h; path = Classes/Model/Generated/Panda/FKFlickrPandaGetPhotos.h; sourceTree = "<group>"; };
 		F8A8741A451B1C9EA35A5996641E34E1 /* FKFlickrCollectionsGetTree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrCollectionsGetTree.h; path = Classes/Model/Generated/Collections/FKFlickrCollectionsGetTree.h; sourceTree = "<group>"; };
 		F8B23EFE62EFD6A17B42AF3154D92423 /* FKFlickrUrlsGetGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FKFlickrUrlsGetGroup.m; path = Classes/Model/Generated/Urls/FKFlickrUrlsGetGroup.m; sourceTree = "<group>"; };
+		F8BA95104AE861CF1E2273CC7A03A8B3 /* Realm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Realm.framework; path = Realm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F90581019762E5720D1939AC355533AF /* FKFlickrMachinetagsGetValues.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrMachinetagsGetValues.h; path = Classes/Model/Generated/Machinetags/FKFlickrMachinetagsGetValues.h; sourceTree = "<group>"; };
-		F9D4119B074C4E362D9D180102B3586F /* Pods-JodelChallenge-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JodelChallenge-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FA377030F6272353BA62E0D6F1EB6A61 /* FlickrKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FlickrKit-dummy.m"; sourceTree = "<group>"; };
+		FA39010411879D9A666A0EEC32ED7420 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FADC2A9BB609268A07C32FB3182DB7DF /* FKFlickrPeopleGetLimits.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FKFlickrPeopleGetLimits.h; path = Classes/Model/Generated/People/FKFlickrPeopleGetLimits.h; sourceTree = "<group>"; };
 		FB08067ECAD5EF6DBA40604F61154D45 /* collection_notifier.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = collection_notifier.cpp; path = Realm/ObjectStore/src/impl/collection_notifier.cpp; sourceTree = "<group>"; };
 		FB29E35519D91C5C2CBDE1B3F3C60D87 /* RealmSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RealmSwift-prefix.pch"; sourceTree = "<group>"; };
@@ -1719,6 +1789,14 @@
 			files = (
 				36EE12CB455ACF1FD3C92E8DD64F78A9 /* Foundation.framework in Frameworks */,
 				16ED39F2E1F2201AF2B28557D19D3B6F /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17FAA35C9A180738B1F97DC7B4D9E266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				903F02B903C6B06438F89ED8FC94539D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1825,22 +1903,6 @@
 			path = "../Target Support Files/FlickrKit";
 			sourceTree = "<group>";
 		};
-		0E68ECC741BB00D03AF982C9503BAC56 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				5DDC3E8B51556AA3139A7B277310A7CD /* AFNetworking.framework */,
-				83E95D7AC923E53C0591531BB1EC0E62 /* Alamofire.framework */,
-				D0E83216D8213E8AEE7EE20955EEF14F /* AlamofireImage.framework */,
-				459CB0F9A448EFE120E8624F8F3FADCA /* FlickrKit.framework */,
-				4ECD86E31618CDF17E9029F020A24530 /* Hero.framework */,
-				E6962FE941E96A7EB9AA4E6BC57ED939 /* Pods_JodelChallenge.framework */,
-				3444D778C6F387162E27758732DF5519 /* Realm.framework */,
-				DA4A7E544BD72DD3041138EEE4D75D66 /* RealmSwift.framework */,
-				303952C4949A2DBE924318BF2F61E6A5 /* SVProgressHUD.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		14C5CD01BA73641A22865F67DB5B802C /* Security */ = {
 			isa = PBXGroup;
 			children = (
@@ -1848,14 +1910,6 @@
 				42DDAF836E3EBA5580847B8F277185D0 /* AFSecurityPolicy.m */,
 			);
 			name = Security;
-			sourceTree = "<group>";
-		};
-		19640DF6FB0BB22E6372C1C46EE825DE /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				823B9FC51263DB2303DA7B2DFC00D317 /* Pods-JodelChallenge */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		1B80D8A9357FA1EAB7B2E46854625C64 /* Support Files */ = {
@@ -1870,6 +1924,24 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/Hero";
+			sourceTree = "<group>";
+		};
+		1DF923C0F37E6565ED4E386E9C4069DD /* Pods-JodelChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				5BB218168457BC82BBD94C48EEA8BD0E /* Info.plist */,
+				88FF621B532B984BB6590E2770A4EE9E /* Pods-JodelChallenge.modulemap */,
+				38702EA1B6DAAA07D9F799707FEBDDF7 /* Pods-JodelChallenge-acknowledgements.markdown */,
+				4F79A46A9B3C7C5F1B1DE684D52A57A1 /* Pods-JodelChallenge-acknowledgements.plist */,
+				882E254AC9055AAD1579DCAAB027A588 /* Pods-JodelChallenge-dummy.m */,
+				B380E6EC85B5B90C95553B088A800DDF /* Pods-JodelChallenge-frameworks.sh */,
+				ACC326DF24D2CBB4A4692D99B633E7CF /* Pods-JodelChallenge-resources.sh */,
+				4439CCE5C1DEED3B414F4D23EC30270E /* Pods-JodelChallenge-umbrella.h */,
+				33FCF74D64300B8C609B29BFDFC169A1 /* Pods-JodelChallenge.debug.xcconfig */,
+				6D590A0AE668C4C896315AAC54697AD6 /* Pods-JodelChallenge.release.xcconfig */,
+			);
+			name = "Pods-JodelChallenge";
+			path = "Target Support Files/Pods-JodelChallenge";
 			sourceTree = "<group>";
 		};
 		274C6168931B895A14C5C95A924381C6 /* UIKit */ = {
@@ -2037,6 +2109,15 @@
 			name = Headers;
 			sourceTree = "<group>";
 		};
+		3D76660C842438C98F205E555B84CD02 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1DF923C0F37E6565ED4E386E9C4069DD /* Pods-JodelChallenge */,
+				F05A421A935E16B84DCFB0CB09D289F4 /* Pods-JodelChallengeTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		526C30EAC724AF68527FB1C552B60EF0 /* SVProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
@@ -2158,8 +2239,8 @@
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				F65D932CBFAC6D55C62F23641E56191D /* Frameworks */,
 				824884FC958B5A058C7C4FECF5E7D593 /* Pods */,
-				0E68ECC741BB00D03AF982C9503BAC56 /* Products */,
-				19640DF6FB0BB22E6372C1C46EE825DE /* Targets Support Files */,
+				EB6EA6E8F45E4DA6CDBBEE30512C74BD /* Products */,
+				3D76660C842438C98F205E555B84CD02 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -2169,24 +2250,6 @@
 				690E060AD43DC67DE74B6441078BC6E4 /* librealmcore-ios.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		823B9FC51263DB2303DA7B2DFC00D317 /* Pods-JodelChallenge */ = {
-			isa = PBXGroup;
-			children = (
-				D51681FA343D3132603E67CBB75D7B21 /* Info.plist */,
-				2D55DEF7FBF7CA1BDD60867C9B72E844 /* Pods-JodelChallenge.modulemap */,
-				F9D4119B074C4E362D9D180102B3586F /* Pods-JodelChallenge-acknowledgements.markdown */,
-				751CC23DB55A9536048555E0CBD49886 /* Pods-JodelChallenge-acknowledgements.plist */,
-				91F25F4B5CC6ADE66E96A983DA71A865 /* Pods-JodelChallenge-dummy.m */,
-				D72E48EED4E402EC00E87FA57552F022 /* Pods-JodelChallenge-frameworks.sh */,
-				21137ACDA21CC75884E08C9159753459 /* Pods-JodelChallenge-resources.sh */,
-				48C1A6F6070C0DC8F803656F3B72DE58 /* Pods-JodelChallenge-umbrella.h */,
-				F5EBFC3EF6CEAFA7676C54CB8CE79E65 /* Pods-JodelChallenge.debug.xcconfig */,
-				A089764071BC7481ED61F24040A97409 /* Pods-JodelChallenge.release.xcconfig */,
-			);
-			name = "Pods-JodelChallenge";
-			path = "Target Support Files/Pods-JodelChallenge";
 			sourceTree = "<group>";
 		};
 		824884FC958B5A058C7C4FECF5E7D593 /* Pods */ = {
@@ -2803,6 +2866,41 @@
 			path = "../Target Support Files/SVProgressHUD";
 			sourceTree = "<group>";
 		};
+		EB6EA6E8F45E4DA6CDBBEE30512C74BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B355C3C2CACAD98B067E2A3D482DB36 /* AFNetworking.framework */,
+				FA39010411879D9A666A0EEC32ED7420 /* Alamofire.framework */,
+				2130207129ECAD85FB636009E9BA2FFF /* AlamofireImage.framework */,
+				9FF5506FC80E33575310BE183BE7FE59 /* FlickrKit.framework */,
+				AD92DB6C355E3B747F8C4C234D6C350D /* Hero.framework */,
+				21EAC6A2DC27B9D179A290F5EA65721C /* Pods_JodelChallenge.framework */,
+				D29996B64A3A2C8483F7B700F7DE8F4C /* Pods_JodelChallengeTests.framework */,
+				F8BA95104AE861CF1E2273CC7A03A8B3 /* Realm.framework */,
+				4B34393554B480367614A61A070B7335 /* RealmSwift.framework */,
+				883DD4D0E223A74D810ED109E51E9B58 /* SVProgressHUD.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F05A421A935E16B84DCFB0CB09D289F4 /* Pods-JodelChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				60D09A1EFF6944086D00DA47687FCF2A /* Info.plist */,
+				B17DB1CFA850C1F53716FAF408808E1C /* Pods-JodelChallengeTests.modulemap */,
+				56A7F249045B6346540C3E6377A99C2C /* Pods-JodelChallengeTests-acknowledgements.markdown */,
+				D77D88BB7EACAC21FF15C16B16334F83 /* Pods-JodelChallengeTests-acknowledgements.plist */,
+				3C2EF86EAA6455832BF0C667AC423106 /* Pods-JodelChallengeTests-dummy.m */,
+				B7CED03B00ED9F52A5D3BF1A31A64323 /* Pods-JodelChallengeTests-frameworks.sh */,
+				ED11E1D4626CD9A947FA685D18E43B3D /* Pods-JodelChallengeTests-resources.sh */,
+				24487FA161303CC956119B2AA6090402 /* Pods-JodelChallengeTests-umbrella.h */,
+				3FB58523D3BC5B444722EF65BF3D59CF /* Pods-JodelChallengeTests.debug.xcconfig */,
+				764A86C4B588C5221A73AE7BCF50D991 /* Pods-JodelChallengeTests.release.xcconfig */,
+			);
+			name = "Pods-JodelChallengeTests";
+			path = "Target Support Files/Pods-JodelChallengeTests";
+			sourceTree = "<group>";
+		};
 		F28F8DB9EBF68BED14D819B43FD371FB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -2839,6 +2937,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		136DC4C10FC9658A3C2C6E9B81E0C19E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315DFD6AFDDD6F7224281414F7E3A2C1 /* Pods-JodelChallengeTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		78CF1085110F8EDA571C128F6CE138C2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -3205,6 +3311,31 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		64642158EEA572BDB55E5683C55BAC04 /* Pods-JodelChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEE9129228C17EF1E78D2A6C69D4BC7D /* Build configuration list for PBXNativeTarget "Pods-JodelChallengeTests" */;
+			buildPhases = (
+				A7699D46B3A95876242FAD3CE27C301A /* Sources */,
+				17FAA35C9A180738B1F97DC7B4D9E266 /* Frameworks */,
+				136DC4C10FC9658A3C2C6E9B81E0C19E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				56E79B172F325C652038E605621C87C7 /* PBXTargetDependency */,
+				C6886D704B1F92DE28FCF493AC0DC0BA /* PBXTargetDependency */,
+				CBDFC7BBFF2CA812080161B0D1EDEC5E /* PBXTargetDependency */,
+				A29F685CAD5BD43508F7030707B33EB4 /* PBXTargetDependency */,
+				7A18DD418419CFD2B97BBE80D1B2ECA5 /* PBXTargetDependency */,
+				6853E9925C18F076C2C20D501358B01B /* PBXTargetDependency */,
+				07A741BD92CFF7C06383316B806CE4D2 /* PBXTargetDependency */,
+				1BA8664F64C028109CDDCEBB7EDFB08E /* PBXTargetDependency */,
+			);
+			name = "Pods-JodelChallengeTests";
+			productName = "Pods-JodelChallengeTests";
+			productReference = D29996B64A3A2C8483F7B700F7DE8F4C /* Pods_JodelChallengeTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		83C26A1A65032AB1408D01604F119111 /* Hero */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A08B0DE972D9D1786334E52667434BF7 /* Build configuration list for PBXNativeTarget "Hero" */;
@@ -3219,7 +3350,7 @@
 			);
 			name = Hero;
 			productName = Hero;
-			productReference = 4ECD86E31618CDF17E9029F020A24530 /* Hero.framework */;
+			productReference = AD92DB6C355E3B747F8C4C234D6C350D /* Hero.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */ = {
@@ -3236,7 +3367,7 @@
 			);
 			name = Alamofire;
 			productName = Alamofire;
-			productReference = 83E95D7AC923E53C0591531BB1EC0E62 /* Alamofire.framework */;
+			productReference = FA39010411879D9A666A0EEC32ED7420 /* Alamofire.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9EFE4C70245EE2857D336B8B9FA4E825 /* AlamofireImage */ = {
@@ -3254,7 +3385,7 @@
 			);
 			name = AlamofireImage;
 			productName = AlamofireImage;
-			productReference = D0E83216D8213E8AEE7EE20955EEF14F /* AlamofireImage.framework */;
+			productReference = 2130207129ECAD85FB636009E9BA2FFF /* AlamofireImage.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A9F4244068AA875C9548E52F7138CD0A /* Pods-JodelChallenge */ = {
@@ -3279,7 +3410,7 @@
 			);
 			name = "Pods-JodelChallenge";
 			productName = "Pods-JodelChallenge";
-			productReference = E6962FE941E96A7EB9AA4E6BC57ED939 /* Pods_JodelChallenge.framework */;
+			productReference = 21EAC6A2DC27B9D179A290F5EA65721C /* Pods_JodelChallenge.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B1D2C6B2423E1D67F01F334C97C168DD /* FlickrKit */ = {
@@ -3296,7 +3427,7 @@
 			);
 			name = FlickrKit;
 			productName = FlickrKit;
-			productReference = 459CB0F9A448EFE120E8624F8F3FADCA /* FlickrKit.framework */;
+			productReference = 9FF5506FC80E33575310BE183BE7FE59 /* FlickrKit.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CA10D13DDC35D2C8C02AE279F4374C0E /* RealmSwift */ = {
@@ -3314,7 +3445,7 @@
 			);
 			name = RealmSwift;
 			productName = RealmSwift;
-			productReference = DA4A7E544BD72DD3041138EEE4D75D66 /* RealmSwift.framework */;
+			productReference = 4B34393554B480367614A61A070B7335 /* RealmSwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */ = {
@@ -3331,7 +3462,7 @@
 			);
 			name = AFNetworking;
 			productName = AFNetworking;
-			productReference = 5DDC3E8B51556AA3139A7B277310A7CD /* AFNetworking.framework */;
+			productReference = 6B355C3C2CACAD98B067E2A3D482DB36 /* AFNetworking.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		DDDCEBAFE4BDECB6C319C1B6DFF9470A /* SVProgressHUD */ = {
@@ -3349,7 +3480,7 @@
 			);
 			name = SVProgressHUD;
 			productName = SVProgressHUD;
-			productReference = 303952C4949A2DBE924318BF2F61E6A5 /* SVProgressHUD.framework */;
+			productReference = 883DD4D0E223A74D810ED109E51E9B58 /* SVProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		F593CEB3E5D3316F42B0F15EB47206A0 /* Realm */ = {
@@ -3368,7 +3499,7 @@
 			);
 			name = Realm;
 			productName = Realm;
-			productReference = 3444D778C6F387162E27758732DF5519 /* Realm.framework */;
+			productReference = F8BA95104AE861CF1E2273CC7A03A8B3 /* Realm.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -3388,7 +3519,7 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0E68ECC741BB00D03AF982C9503BAC56 /* Products */;
+			productRefGroup = EB6EA6E8F45E4DA6CDBBEE30512C74BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -3398,6 +3529,7 @@
 				B1D2C6B2423E1D67F01F334C97C168DD /* FlickrKit */,
 				83C26A1A65032AB1408D01604F119111 /* Hero */,
 				A9F4244068AA875C9548E52F7138CD0A /* Pods-JodelChallenge */,
+				64642158EEA572BDB55E5683C55BAC04 /* Pods-JodelChallengeTests */,
 				F593CEB3E5D3316F42B0F15EB47206A0 /* Realm */,
 				CA10D13DDC35D2C8C02AE279F4374C0E /* RealmSwift */,
 				DDDCEBAFE4BDECB6C319C1B6DFF9470A /* SVProgressHUD */,
@@ -3795,6 +3927,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A7699D46B3A95876242FAD3CE27C301A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19B20CED0B0B2BFA6532787B74750B9F /* Pods-JodelChallengeTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		DB0BE2FBB4DB070AD3C57C41C562C32B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -3898,11 +4038,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		07A741BD92CFF7C06383316B806CE4D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RealmSwift;
+			target = CA10D13DDC35D2C8C02AE279F4374C0E /* RealmSwift */;
+			targetProxy = CE849E81993996371BEC62205FF46DD8 /* PBXContainerItemProxy */;
+		};
 		12C1AEC0FA036CDBFFBA6823D654B78D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SVProgressHUD;
 			target = DDDCEBAFE4BDECB6C319C1B6DFF9470A /* SVProgressHUD */;
 			targetProxy = DA63E6349A80539D5E87C16A40238E96 /* PBXContainerItemProxy */;
+		};
+		1BA8664F64C028109CDDCEBB7EDFB08E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = DDDCEBAFE4BDECB6C319C1B6DFF9470A /* SVProgressHUD */;
+			targetProxy = 1E9181F9C072741A5ED03433883FFFA2 /* PBXContainerItemProxy */;
 		};
 		3D54F7B36E479913B63A773EF123CBB6 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3922,6 +4074,24 @@
 			target = 9EFE4C70245EE2857D336B8B9FA4E825 /* AlamofireImage */;
 			targetProxy = E5F03F362577A1DCEB7800A0DF07D6B1 /* PBXContainerItemProxy */;
 		};
+		56E79B172F325C652038E605621C87C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFNetworking;
+			target = CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */;
+			targetProxy = C4698006E518E7B298D92899953E7894 /* PBXContainerItemProxy */;
+		};
+		6853E9925C18F076C2C20D501358B01B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Realm;
+			target = F593CEB3E5D3316F42B0F15EB47206A0 /* Realm */;
+			targetProxy = 223122346DA91ED143BF37A4BF423DB1 /* PBXContainerItemProxy */;
+		};
+		7A18DD418419CFD2B97BBE80D1B2ECA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Hero;
+			target = 83C26A1A65032AB1408D01604F119111 /* Hero */;
+			targetProxy = C6528CFA5C8D8D6C7876849DF2DDC88D /* PBXContainerItemProxy */;
+		};
 		7EB43E2D93548543A16FAE77BF468B8D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
@@ -3940,11 +4110,29 @@
 			target = CF671F7E57B92905F1CC91D036D6B4A7 /* AFNetworking */;
 			targetProxy = 63A5B94CF8E3E2D61B7C05DA63600623 /* PBXContainerItemProxy */;
 		};
+		A29F685CAD5BD43508F7030707B33EB4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FlickrKit;
+			target = B1D2C6B2423E1D67F01F334C97C168DD /* FlickrKit */;
+			targetProxy = 96A1672ECD807858401957E69B2824FC /* PBXContainerItemProxy */;
+		};
+		C6886D704B1F92DE28FCF493AC0DC0BA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 88E9EC28B8B46C3631E6B242B50F4442 /* Alamofire */;
+			targetProxy = 69B36E83CB2CFA477CDF00533B260228 /* PBXContainerItemProxy */;
+		};
 		C985C09A75E3C7B406190361A1901CA2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Hero;
 			target = 83C26A1A65032AB1408D01604F119111 /* Hero */;
 			targetProxy = A9DFDD497F91EDB865D452B6CDF09766 /* PBXContainerItemProxy */;
+		};
+		CBDFC7BBFF2CA812080161B0D1EDEC5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlamofireImage;
+			target = 9EFE4C70245EE2857D336B8B9FA4E825 /* AlamofireImage */;
+			targetProxy = 92C292043C255FAA56301575CC2F889C /* PBXContainerItemProxy */;
 		};
 		CFBE9A8694AF829FFD8D365376C0FD4D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -4505,7 +4693,7 @@
 		};
 		C2AF7F9A3954CCC1C23B9F46FF3BC9C5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A089764071BC7481ED61F24040A97409 /* Pods-JodelChallenge.release.xcconfig */;
+			baseConfigurationReference = 6D590A0AE668C4C896315AAC54697AD6 /* Pods-JodelChallenge.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4578,7 +4766,7 @@
 		};
 		DB6B98E294565C1AF0135FA2CAEB2BC0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5EBFC3EF6CEAFA7676C54CB8CE79E65 /* Pods-JodelChallenge.debug.xcconfig */;
+			baseConfigurationReference = 33FCF74D64300B8C609B29BFDFC169A1 /* Pods-JodelChallenge.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -4683,6 +4871,83 @@
 			};
 			name = Release;
 		};
+		E6B26921286B2CE7D6AD3EC1439624C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FB58523D3BC5B444722EF65BF3D59CF /* Pods-JodelChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JodelChallengeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JodelChallengeTests/Pods-JodelChallengeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JodelChallengeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA86ADB563327A22D7D3BE6266D404A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 764A86C4B588C5221A73AE7BCF50D991 /* Pods-JodelChallengeTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-JodelChallengeTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JodelChallengeTests/Pods-JodelChallengeTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_JodelChallengeTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -4772,6 +5037,15 @@
 			buildConfigurations = (
 				A7EE95F77367D8BD14F1A5015459F922 /* Debug */,
 				8243D86809E5F825770DD7A275DFF71F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEE9129228C17EF1E78D2A6C69D4BC7D /* Build configuration list for PBXNativeTarget "Pods-JodelChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B26921286B2CE7D6AD3EC1439624C0 /* Debug */,
+				FA86ADB563327A22D7D3BE6266D404A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

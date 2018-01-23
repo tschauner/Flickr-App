@@ -15,6 +15,7 @@
 		3FBCC74F1F73AE9200D35147 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FBCC74D1F73AE9200D35147 /* LaunchScreen.storyboard */; };
 		3FBCC75A1F73AE9200D35147 /* JodelChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBCC7591F73AE9200D35147 /* JodelChallengeTests.swift */; };
 		3FBCC7651F73AE9200D35147 /* JodelChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FBCC7641F73AE9200D35147 /* JodelChallengeUITests.swift */; };
+		A22B3B6720168605009F508C /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = A22B3B6620168605009F508C /* response.json */; };
 		A22B6E35FBC360B5AE063E1D /* Pods_JodelChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6AD0B1B9DA8D2FDCA26003C /* Pods_JodelChallenge.framework */; };
 		A26156BC20150E040011DB57 /* FlickrService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26156BB20150E040011DB57 /* FlickrService.swift */; };
 		A26156C220155D1C0011DB57 /* PictureDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26156C120155D1C0011DB57 /* PictureDetailViewModel.swift */; };
@@ -27,6 +28,7 @@
 		A26B6EB820138FC00077017F /* FlikrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26B6EB720138FC00077017F /* FlikrPhoto.swift */; };
 		A26B6EC32013D7340077017F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26B6EC22013D7330077017F /* Main.storyboard */; };
 		A26B6EC72014CF6B0077017F /* PictureDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26B6EC62014CF6B0077017F /* PictureDetailViewController.swift */; };
+		B8F1645C3670A8074AE711F3 /* Pods_JodelChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DF4218734A09890D38A489 /* Pods_JodelChallengeTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,7 @@
 		3FBCC7641F73AE9200D35147 /* JodelChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JodelChallengeUITests.swift; sourceTree = "<group>"; };
 		3FBCC7661F73AE9200D35147 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		725C4F04B15E5272D8D1E3A0 /* Pods-JodelChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JodelChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JodelChallenge/Pods-JodelChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		A22B3B6620168605009F508C /* response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = response.json; sourceTree = "<group>"; };
 		A26156BB20150E040011DB57 /* FlickrService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrService.swift; sourceTree = "<group>"; };
 		A26156C120155D1C0011DB57 /* PictureDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureDetailViewModel.swift; sourceTree = "<group>"; };
 		A26156C4201565100011DB57 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
@@ -78,7 +81,10 @@
 		A26B6EC22013D7330077017F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A26B6EC62014CF6B0077017F /* PictureDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureDetailViewController.swift; sourceTree = "<group>"; };
 		A7096B2AF22017DBA2B785C4 /* Pods-JodelChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JodelChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-JodelChallenge/Pods-JodelChallenge.release.xcconfig"; sourceTree = "<group>"; };
+		B3DF4218734A09890D38A489 /* Pods_JodelChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JodelChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC60150D5F758F30F76D310D /* Pods-JodelChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JodelChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JodelChallengeTests/Pods-JodelChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E6AD0B1B9DA8D2FDCA26003C /* Pods_JodelChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JodelChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBDA8847B7CC91FF83ECAFF2 /* Pods-JodelChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JodelChallengeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JodelChallengeTests/Pods-JodelChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8F1645C3670A8074AE711F3 /* Pods_JodelChallengeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +119,8 @@
 			children = (
 				725C4F04B15E5272D8D1E3A0 /* Pods-JodelChallenge.debug.xcconfig */,
 				A7096B2AF22017DBA2B785C4 /* Pods-JodelChallenge.release.xcconfig */,
+				DC60150D5F758F30F76D310D /* Pods-JodelChallengeTests.debug.xcconfig */,
+				EBDA8847B7CC91FF83ECAFF2 /* Pods-JodelChallengeTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -187,6 +196,7 @@
 			isa = PBXGroup;
 			children = (
 				3FBCC7591F73AE9200D35147 /* JodelChallengeTests.swift */,
+				A22B3B6620168605009F508C /* response.json */,
 				3FBCC75B1F73AE9200D35147 /* Info.plist */,
 			);
 			path = JodelChallengeTests;
@@ -205,6 +215,7 @@
 			isa = PBXGroup;
 			children = (
 				E6AD0B1B9DA8D2FDCA26003C /* Pods_JodelChallenge.framework */,
+				B3DF4218734A09890D38A489 /* Pods_JodelChallengeTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -324,9 +335,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FBCC76C1F73AE9200D35147 /* Build configuration list for PBXNativeTarget "JodelChallengeTests" */;
 			buildPhases = (
+				59787C2BEDAFB0B6A3584BC5 /* [CP] Check Pods Manifest.lock */,
 				3FBCC7511F73AE9200D35147 /* Sources */,
 				3FBCC7521F73AE9200D35147 /* Frameworks */,
 				3FBCC7531F73AE9200D35147 /* Resources */,
+				3E2D8750FDA39D2FB91284D8 /* [CP] Embed Pods Frameworks */,
+				1E7407CF43661C0AD87F15BA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -419,6 +433,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A22B3B6720168605009F508C /* response.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,6 +447,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		1E7407CF43661C0AD87F15BA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JodelChallengeTests/Pods-JodelChallengeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		344CB64F96B45271AFDA4C66 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -445,6 +475,38 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JodelChallenge/Pods-JodelChallenge-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E2D8750FDA39D2FB91284D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-JodelChallengeTests/Pods-JodelChallengeTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/FlickrKit/FlickrKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FlickrKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JodelChallengeTests/Pods-JodelChallengeTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		4A2F5F0821A6474B75CD362C /* [CP] Embed Pods Frameworks */ = {
@@ -477,6 +539,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JodelChallenge/Pods-JodelChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59787C2BEDAFB0B6A3584BC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JodelChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		896C3E1B6DD33A68D762DBDB /* [CP] Check Pods Manifest.lock */ = {
@@ -709,6 +789,7 @@
 		};
 		3FBCC76D1F73AE9200D35147 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC60150D5F758F30F76D310D /* Pods-JodelChallengeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -725,6 +806,7 @@
 		};
 		3FBCC76E1F73AE9200D35147 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBDA8847B7CC91FF83ECAFF2 /* Pods-JodelChallengeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
