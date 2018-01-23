@@ -11,6 +11,10 @@ import Hero
 
 extension FeedViewController: FeedProtocol {
     
+    
+    /// reload collection view
+    /// refresh end animating
+    /// tops up page label
     func photosUpdated() {
         self.feedCollectionView.reloadData()
         refreshControl.endRefreshing()
@@ -40,6 +44,8 @@ class FeedViewController: UIViewController {
     }
 
     
+    
+    /// Setting up the collection view + register collection view cell
     func setupCollectionView() {
         feedCollectionView.scrollsToTop = true
         feedCollectionView.delegate = self
@@ -51,25 +57,42 @@ class FeedViewController: UIViewController {
         refreshControl.addTarget(self, action: #selector(fetchData), for: .valueChanged)
     }
     
+    
+    /// fetch all data from Flickr
+    /// begin refresh animation
     @objc func fetchData() {
         refreshControl.beginRefreshing()
         feedViewModel.fetchPhotos()
     }
     
+    
+    /// setup page view
     func setupPageView() {
         pageView.layer.cornerRadius = pageView.frame.size.height/2
     }
     
+    
+    /// setup navigation bar
     func setupNavigationBar() {
         navigationItem.title = "Flickrgram"
         navigationController?.hidesBarsOnSwipe = true
     }
     
+    
+    /// shows alert wit thext
+    ///
+    /// - Parameter text: error
     func showErrorAlert(withText text: String) {
         let okAction = UIAlertAction(title: "OK", style: .default, handler: nil)
         showAlert(title: "OOOOPS", contentText: text, actions: [okAction])
     }
     
+    
+    /// prepare for segue
+    ///
+    /// - Parameters:
+    ///   - segue: showDetail
+    ///   - sender: cell
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if let currentCell = sender as? FeedCollectionViewCell,
             let vc = segue.destination as? PictureDetailViewController {
@@ -108,7 +131,6 @@ extension FeedViewController: UICollectionViewDelegateFlowLayout, UICollectionVi
         let size = CGSize(width: view.frame.width, height: height)
         
         return size
-        
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
