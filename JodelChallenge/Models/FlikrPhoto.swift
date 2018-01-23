@@ -35,7 +35,7 @@ import RealmSwift
         case isfamily
     }
     
-    private func primaryKey() -> String {
+    override class func primaryKey() -> String? {
         return "id"
     }
     
