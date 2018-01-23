@@ -120,6 +120,4 @@ class PictureDetailViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
-    
-    
 }

@@ -84,12 +84,11 @@ class FeedCollectionViewCell: UICollectionViewCell {
         pictureImageView.heroID = "\(photo.id)_name"
         pictureImageView.af_cancelImageRequest()
         activityIndicator.startAnimating()
-        shadowView.alpha = 0
         pictureImageView.af_setImage(withURL: photo.imageURL, placeholderImage: nil, filter: nil, progress: { (progress) in
             
         }, progressQueue: .main, imageTransition: .crossDissolve(0.5), runImageTransitionIfCached: false) { [weak self] (completion) in
             self?.activityIndicator.stopAnimating()
-            self?.shadowView.alpha = 1
+            //self?.shadowView.alpha = 1
         }
         
         imageNameLabel.heroID = "\(photo.id)_name"
@@ -105,7 +104,7 @@ class FeedCollectionViewCell: UICollectionViewCell {
         shadowView.alpha = 0
         shadowView.layer.shadowColor = UIColor.black.cgColor
         shadowView.layer.cornerRadius = 20
-        shadowView.layer.shadowOpacity = 0.5
+        shadowView.layer.shadowOpacity = 1
         shadowView.layer.shadowRadius = 10
     
     }
