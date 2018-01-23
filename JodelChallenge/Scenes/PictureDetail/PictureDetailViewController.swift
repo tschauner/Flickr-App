@@ -43,17 +43,23 @@ class PictureDetailViewController: UIViewController {
     }
     
     
+    /// setup views
+    /// cache image
+    /// sets hero ids
     func setupViews() {
         
         guard let photo = pictureDetailViewModel.flickrImage else { return }
         
         pictureNameLabel.heroID = "\(photo.id)_name"
         pictureImageView.heroID = "\(photo.id)_name"
+        
         pictureImageView.af_setImage(withURL: photo.imageURL)
         pictureNameLabel.text = photo.title
         
     }
     
+    
+    /// initializes the pan gesture
     func initPanGesture() {
         let pan = UIPanGestureRecognizer(target: self, action: #selector(didPan))
         pictureImageView.isUserInteractionEnabled = true
@@ -61,6 +67,11 @@ class PictureDetailViewController: UIViewController {
         pictureImageView.backgroundColor = .gray
     }
     
+    
+    
+    /// pan gesture which handles hero animation
+    ///
+    /// - Parameter pan: pan gesture for views
     @objc func didPan(pan: UIPanGestureRecognizer) {
         
         let translation = pan.translation(in: nil)
@@ -87,6 +98,9 @@ class PictureDetailViewController: UIViewController {
         }
     }
     
+    
+    
+    /// shows the button after the view is loaded
     func animateButton() {
         UIView.animateKeyframes(withDuration: 0.3, delay: 0, options: [], animations: {
             self.closeButton.alpha = 1
@@ -94,11 +108,14 @@ class PictureDetailViewController: UIViewController {
     }
     
     
+    /// sets up the close button
     func setupButton() {
         closeButton.alpha = 0
         closeButton.addTarget(self, action: #selector(dismissView), for: .touchUpInside)
     }
     
+    
+    /// dismiss action for vc
     @objc func dismissView() {
         dismiss(animated: true, completion: nil)
     }
