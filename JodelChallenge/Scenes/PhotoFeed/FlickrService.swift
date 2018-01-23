@@ -14,7 +14,13 @@ class FlickrService {
     
 typealias Closure<T> = ((T) -> Void)
     
-
+    
+    /// fetches all photos from the Flickr AIP and returns and FlickrPhoto Array
+    ///
+    /// - Parameters:
+    ///   - page: pagination
+    ///   - completion: returns FlickrPhoto Array
+    ///   - failure: returns Error
     func fetchPhotos(page: Int = 0, with completion: @escaping Closure<[FlickrPhoto]>, failure: @escaping Closure<Error>) {
         
         let flicker = FlickrKit.shared()
@@ -47,15 +53,23 @@ typealias Closure<T> = ((T) -> Void)
         }
     }
     
+    
+    /// fetches all photos from Realm database and returns FlickrPhoto Array
+    ///
+    /// - Parameter results: return FlickrPhoto Array
     func fetchPhotosFromRealm(results: @escaping Closure<[FlickrPhoto]>) {
         RealmManager.shared.fetchAll { (photos: [FlickrPhoto]) in
             results(photos)
         }
     }
     
+    
+    /// saves all photos in the Realm database
+    ///
+    /// - Parameter photos: takes flickrPhoto Array
     func savePhotosToRealm(photos: [FlickrPhoto]) {
         photos.forEach { (photo) in
-            RealmManager.shared.create(photo, updateExisting: true, complete: {
+            RealmManager.shared.create(photo,  complete: {
                 
             })
         }

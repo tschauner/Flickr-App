@@ -17,7 +17,5 @@ class PictureDetailViewModel {
     var delegate: PictureDetailProtocol?
     
     var flickrImage: FlickrPhoto? 
-
-    
-    
+  
 }

@@ -26,13 +26,18 @@ class RealmManager {
     }
 
     
-    /// creates and stores the Realm object
-    func create<T: Object>(_ object: T, updateExisting: Bool = false, complete: @escaping () -> ()) {
+
+    /// writes all objects to the realm database & updates all old
+    ///
+    /// - Parameters:
+    ///   - object: generic
+    ///   - complete: function
+    func create<T: Object>(_ object: T, complete: @escaping () -> ()) {
         
         DispatchQueue.main.async {
             do {
                 try self.realm.write {
-                    self.realm.add(object, update: updateExisting)
+                    self.realm.add(object, update: true)
                     complete()
                 }
             } catch {
@@ -41,7 +46,10 @@ class RealmManager {
         }
     }
     
-    /// fetches all objects
+    
+    /// fetches all objes from the realm database
+    ///
+    /// - Parameter results: returns all objecs in an Array
     func fetchAll<T: Object>(results: @escaping (([T]) -> Void)) {
         
         DispatchQueue.main.async {
