@@ -36,18 +36,18 @@ class FeedCollectionViewCell: UICollectionViewCell {
         }
     }
 
-    
-    
+    /// sets up gradient layer
     private func configureGradient() {
         if let _ = gradient {
             return
         }
-        
         gradient = CAGradientLayer()
         gradient?.colors = [UIColor.clear.cgColor, UIColor(white: 0.2, alpha: 0.9).cgColor]
         pictureImageView.layer.addSublayer(gradient!)
     }
     
+    
+    /// gradient layer in top of image view
     override func layoutSubviews() {
         super.layoutSubviews()
         
@@ -58,6 +58,8 @@ class FeedCollectionViewCell: UICollectionViewCell {
                                       height: gradientHeight)
     }
     
+    
+    /// resets the cell to reuse
     override func prepareForReuse() {
         super.prepareForReuse()
         
@@ -65,11 +67,17 @@ class FeedCollectionViewCell: UICollectionViewCell {
         pictureImageView.image = nil
     }
     
+    
+    /// static identifier
     static var identifier: String {
         return String(describing: FeedCollectionViewCell.self)
     }
     
     
+    
+    /// configures the colleciton view cell
+    ///
+    /// - Parameter photo: flickrphoto model
     func configure(photo: FlickrPhoto) {
         flickrPhoto = photo
         pictureImageView.heroID = "\(photo.id)_name"
@@ -85,11 +93,14 @@ class FeedCollectionViewCell: UICollectionViewCell {
         imageNameLabel.text = photo.title
     }
     
+    
+    /// setup all views
     func setupViews() {
         pictureImageView.clipsToBounds = true
         pictureImageView.layer.cornerRadius = 20
+        shadowView.layer.cornerRadius = 20
         shadowView.layer.shadowRadius = 10
-        shadowView.layer.shadowOpacity = 0.3
+        shadowView.layer.shadowOpacity = 0.4
     }
 
 }
