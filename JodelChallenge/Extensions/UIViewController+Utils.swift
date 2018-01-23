@@ -10,6 +10,13 @@ import UIKit
 
 extension UIViewController {
     
+
+    /// alert view controller
+    ///
+    /// - Parameters:
+    ///   - title: String
+    ///   - contentText: String
+    ///   - actions: UIAlertAction
     func showAlert(title: String, contentText: String, actions: [UIAlertAction]) {
         DispatchQueue.main.async {
             let alertController = UIAlertController(title: title, message: contentText, preferredStyle: .alert)
