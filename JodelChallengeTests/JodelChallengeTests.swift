@@ -37,15 +37,14 @@ class JodelChallengeTests: XCTestCase {
             let photos = try jsonDecoder.decode(FlickrPhoto.self, from: jsonData)
             
             XCTAssertEqual(photos.title, "Coding challenge")
-            XCTAssertEqual(photos.id, "12349")
+            XCTAssertEqual(photos.secret, "12349")
             
         } catch let error {
             XCTFail(error.localizedDescription)
         }
-        
-
-        
+ 
     }
+    
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
