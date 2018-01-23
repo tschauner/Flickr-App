@@ -18,7 +18,7 @@
 		A22B3B6720168605009F508C /* response.json in Resources */ = {isa = PBXBuildFile; fileRef = A22B3B6620168605009F508C /* response.json */; };
 		A22B6E35FBC360B5AE063E1D /* Pods_JodelChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6AD0B1B9DA8D2FDCA26003C /* Pods_JodelChallenge.framework */; };
 		A26156BC20150E040011DB57 /* FlickrService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26156BB20150E040011DB57 /* FlickrService.swift */; };
-		A26156C220155D1C0011DB57 /* PictureDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26156C120155D1C0011DB57 /* PictureDetailViewModel.swift */; };
+		A26156C220155D1C0011DB57 /* PhotoDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26156C120155D1C0011DB57 /* PhotoDetailViewModel.swift */; };
 		A26156C5201565100011DB57 /* RealmManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26156C4201565100011DB57 /* RealmManager.swift */; };
 		A26156CC2016410F0011DB57 /* UIViewController+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26156CB2016410F0011DB57 /* UIViewController+Utils.swift */; };
 		A26B6EAF201379AE0077017F /* FeedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26B6EAD201379AE0077017F /* FeedCollectionViewCell.swift */; };
@@ -27,7 +27,7 @@
 		A26B6EB6201380F70077017F /* FeedViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26B6EB5201380F70077017F /* FeedViewModel.swift */; };
 		A26B6EB820138FC00077017F /* FlikrPhoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26B6EB720138FC00077017F /* FlikrPhoto.swift */; };
 		A26B6EC32013D7340077017F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26B6EC22013D7330077017F /* Main.storyboard */; };
-		A26B6EC72014CF6B0077017F /* PictureDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26B6EC62014CF6B0077017F /* PictureDetailViewController.swift */; };
+		A26B6EC72014CF6B0077017F /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26B6EC62014CF6B0077017F /* PhotoDetailViewController.swift */; };
 		B8F1645C3670A8074AE711F3 /* Pods_JodelChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3DF4218734A09890D38A489 /* Pods_JodelChallengeTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,7 +70,7 @@
 		725C4F04B15E5272D8D1E3A0 /* Pods-JodelChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JodelChallenge.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JodelChallenge/Pods-JodelChallenge.debug.xcconfig"; sourceTree = "<group>"; };
 		A22B3B6620168605009F508C /* response.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = response.json; sourceTree = "<group>"; };
 		A26156BB20150E040011DB57 /* FlickrService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlickrService.swift; sourceTree = "<group>"; };
-		A26156C120155D1C0011DB57 /* PictureDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureDetailViewModel.swift; sourceTree = "<group>"; };
+		A26156C120155D1C0011DB57 /* PhotoDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewModel.swift; sourceTree = "<group>"; };
 		A26156C4201565100011DB57 /* RealmManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmManager.swift; sourceTree = "<group>"; };
 		A26156CB2016410F0011DB57 /* UIViewController+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Utils.swift"; sourceTree = "<group>"; };
 		A26B6EAD201379AE0077017F /* FeedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -79,7 +79,7 @@
 		A26B6EB5201380F70077017F /* FeedViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewModel.swift; sourceTree = "<group>"; };
 		A26B6EB720138FC00077017F /* FlikrPhoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlikrPhoto.swift; sourceTree = "<group>"; };
 		A26B6EC22013D7330077017F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		A26B6EC62014CF6B0077017F /* PictureDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureDetailViewController.swift; sourceTree = "<group>"; };
+		A26B6EC62014CF6B0077017F /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
 		A7096B2AF22017DBA2B785C4 /* Pods-JodelChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JodelChallenge.release.xcconfig"; path = "Pods/Target Support Files/Pods-JodelChallenge/Pods-JodelChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		B3DF4218734A09890D38A489 /* Pods_JodelChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JodelChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC60150D5F758F30F76D310D /* Pods-JodelChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JodelChallengeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JodelChallengeTests/Pods-JodelChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -144,13 +144,13 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		3F89F9CB1F73AF97002A3FCB /* PictureDetail */ = {
+		3F89F9CB1F73AF97002A3FCB /* PhotoDetail */ = {
 			isa = PBXGroup;
 			children = (
-				A26B6EC62014CF6B0077017F /* PictureDetailViewController.swift */,
-				A26156C120155D1C0011DB57 /* PictureDetailViewModel.swift */,
+				A26B6EC62014CF6B0077017F /* PhotoDetailViewController.swift */,
+				A26156C120155D1C0011DB57 /* PhotoDetailViewModel.swift */,
 			);
-			path = PictureDetail;
+			path = PhotoDetail;
 			sourceTree = "<group>";
 		};
 		3FBCC7381F73AE9200D35147 = {
@@ -224,7 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				A26156BE2015388B0011DB57 /* PhotoFeed */,
-				3F89F9CB1F73AF97002A3FCB /* PictureDetail */,
+				3F89F9CB1F73AF97002A3FCB /* PhotoDetail */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -590,11 +590,11 @@
 				A26B6EB820138FC00077017F /* FlikrPhoto.swift in Sources */,
 				3F52243E1F73B0B800D7D77A /* FeedCollectionViewController.m in Sources */,
 				A26156C5201565100011DB57 /* RealmManager.swift in Sources */,
-				A26156C220155D1C0011DB57 /* PictureDetailViewModel.swift in Sources */,
+				A26156C220155D1C0011DB57 /* PhotoDetailViewModel.swift in Sources */,
 				3FBCC7451F73AE9200D35147 /* AppDelegate.swift in Sources */,
 				A26B6EB320137B350077017F /* FeedViewController.swift in Sources */,
 				3F5224401F73B0C100D7D77A /* FlickrApi.m in Sources */,
-				A26B6EC72014CF6B0077017F /* PictureDetailViewController.swift in Sources */,
+				A26B6EC72014CF6B0077017F /* PhotoDetailViewController.swift in Sources */,
 				A26156CC2016410F0011DB57 /* UIViewController+Utils.swift in Sources */,
 				A26B6EB6201380F70077017F /* FeedViewModel.swift in Sources */,
 			);

@@ -8,13 +8,13 @@
 
 import UIKit
 
-protocol PictureDetailProtocol: NSObjectProtocol {
+protocol PhotoDetailProtocol: NSObjectProtocol {
 
 }
 
-class PictureDetailViewModel {
+class PhotoDetailViewModel {
 
-    var delegate: PictureDetailProtocol?
+    var delegate: PhotoDetailProtocol?
     
     var flickrImage: FlickrPhoto? 
   

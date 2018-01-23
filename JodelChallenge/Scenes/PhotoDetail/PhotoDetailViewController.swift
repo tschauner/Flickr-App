@@ -10,7 +10,7 @@ import UIKit
 import Hero
 import AlamofireImage
 
-extension PictureDetailViewController: PictureDetailProtocol {
+extension PhotoDetailViewController: PhotoDetailProtocol {
     
     
 }
@@ -19,13 +19,13 @@ func + (left: CGPoint, right: CGPoint) -> CGPoint {
     return CGPoint(x: left.x + right.x, y: left.y + right.y)
 }
 
-class PictureDetailViewController: UIViewController {
+class PhotoDetailViewController: UIViewController {
     
     @IBOutlet weak var pictureNameLabel: UILabel!
     @IBOutlet weak var pictureImageView: UIImageView!
     @IBOutlet weak var closeButton: UIButton!
     
-    var pictureDetailViewModel = PictureDetailViewModel()
+    var pictureDetailViewModel = PhotoDetailViewModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
