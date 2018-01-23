@@ -72,10 +72,4 @@ extension FlickrPhoto {
         let farmString: String = String(farm)
         return flickr.photoURL(for: .large1024, photoID: id, server: server, secret: secret, farm: farmString)
     }
-    
-    var imageView: UIImageView {
-        let imageView = UIImageView()
-        imageView.af_setImage(withURL: imageURL)
-        return imageView
-    }
 }
